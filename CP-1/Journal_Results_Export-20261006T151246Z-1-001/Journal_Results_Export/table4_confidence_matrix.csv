@@ -1,0 +1,5 @@
+Confidence Range,Detection Count,Percentage
+Low (0.0-0.3),19,3.2%
+Medium (0.3-0.6),215,36.1%
+High (0.6-0.8),233,39.2%
+Very High (0.8-1.0),128,21.5%

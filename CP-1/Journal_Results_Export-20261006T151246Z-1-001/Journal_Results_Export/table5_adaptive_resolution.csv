@@ -1,0 +1,4 @@
+Resolution Tier,Unsharp Mask,Inference Size (imgsz),Confidence Threshold,Line Thickness
+Low (< 480p),ON,1280,0.1,1
+HD (480p-1080p),OFF,1280,0.25,2
+4K/UHD (> 1080p),OFF,1920,0.35,4

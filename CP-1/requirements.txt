@@ -1,0 +1,20 @@
+# Core Computer Vision & Deep Learning
+ultralytics>=8.3.0  # YOLO11
+torch>=2.0.0      # PyTorch for YOLO/LSTM
+torchvision>=0.15.0
+opencv-python>=4.8.0 # For video processing and CLAHE preprocessing
+numpy>=1.24.0
+
+# Tracking
+lapx>=0.5.5       # Required by ByteTrack for bounding box matching
+scipy>=1.10.0
+
+# Forecasting & Data Handling
+pandas>=2.0.0
+scikit-learn>=1.2.0
+xgboost>=2.0.0
+
+# Live Feed & Utilities
+vidgear>=0.3.2    # For processing YouTube live streams
+streamlit>=1.30.0 # For the final CP-2 dashboard
+matplotlib>=3.7.0 # For plotting evaluation metrics

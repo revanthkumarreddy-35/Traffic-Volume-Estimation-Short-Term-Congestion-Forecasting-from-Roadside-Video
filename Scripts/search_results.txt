@@ -1,0 +1,11 @@
+﻿Found base64 data, length: 21788
+Compressed size: 16341 bytes
+Decompressed size: 55399 bytes
+
+Parsed as JSON. Type: <class 'dict'>
+Keys: ['meta', 'techCats', 'skillCats', 'clusterColor', 'bands', 'faculties', 'content', 'specializations', 'technologyTags', 'skillTags', 'industries', 'organisationTypes', 'impactCategories', 'ownerIndustries']
+
+
+================================================================================
+SEARCHING FOR TRAFFIC VIOLATION RELATED PROJECTS
+================================================================================

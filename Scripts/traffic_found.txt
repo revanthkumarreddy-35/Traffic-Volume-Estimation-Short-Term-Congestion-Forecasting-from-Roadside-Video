@@ -1,0 +1,1206 @@
+﻿Decompressed size: 30681045 bytes
+Type: <class 'list'>
+Total projects: 2603
+Keys: ['id', 'dom', 'title', 'url', 'org', 'src', 'conf', 'stack', 'prereq', 'sdgs', 'impact', 'tech', 'skills', 'specializations', 'impactProfile', 'industrySector', 'organisationType', 'dominantImpacts', 'sourceAttributionRaw', 'sourceVenue', 'problemOwners', 'applicationSector', 'engineeringFamily', 'evidencePlan', 'sourceVenueOriginal', 'sourcePlatform', 'sourceProgramme', 'sourceAuthorities', 'sponsors', 'ownerAttributionStatus', 'ownerAttributionBasis', 'ownerIndustry', 'provenance']
+
+================================================================================
+FOUND 11 MATCHING PROJECTS
+================================================================================
+{
+  "id": "CIVIL-01",
+  "dom": "Construction Technology and Management",
+  "title": "Space-Habitat Layout Design-and-Evaluation Tool Balancing Human Factors and Mission Constraints",
+  "url": "https://www.spaceappschallenge.org/2025/challenges/your-home-in-space-the-habitat-layout-creator/",
+  "org": "NASA Space Apps Challenge",
+  "src": "NASA ┬╖ habitat layout creator",
+  "conf": "Direct challenge or benchmark record",
+  "stack": [
+    "interactive 3D/2D editor (web)",
+    "constraint-evaluation engine",
+    "scoring/visualisation",
+    "CAD, CAE or domain-analysis tools"
+  ],
+  "prereq": "Spatial/structural design, human factors, constraint modelling, interactive-tool engineering.",
+  "sdgs": [
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Advances design tooling for extreme environments. The project contributes through this bounded deliverable: ΓÇ£Deliver an interactive habitat design-and-evaluation tool that turns subjective space-planning into measurable, constraint-checked design with a validated scoring modelΓÇ¥. The intended beneficiaries are research engineers, benchmark maintainers and independent technical reviewers."
+    },
+    {
+      "c": "SDG 11.1",
+      "t": "Access to adequate, safe and affordable housing",
+      "j": "Informs safe, human-centred habitat design. The project contributes through this bounded deliverable: ΓÇ£Deliver an interactive habitat design-and-evaluation tool that turns subjective space-planning into measurable, constraint-checked design with a validated scoring modelΓÇ¥. The intended beneficiaries are research engineers, benchmark maintainers and independent technical reviewers."
+    }
+  ],
+  "impact": "Whether for a space habitat or a tightly-constrained building on Earth, good interior layout is a high-stakes balance of safety, function and human wellbeing that is too often left to intuition. By turning that balance into a measurable, constraint-checked, defensibly-scored design process, this project gives designers a tool to make and justify better decisions ΓÇö and gives the student a rich blend of structural/architectural reasoning, human-factors thinking and evaluation-tool engineering.",
+  "tech": [
+    [
+      "CAD / BIM",
+      "TOOLS"
+    ],
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Sustainability / Impact Assessment",
+      "PROF"
+    ],
+    [
+      "Systems Architecture / Trade-off Analysis",
+      "PROG"
+    ],
+    [
+      "Domain Knowledge / Standards Compliance",
+      "DOMENG"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP16",
+      "name": "Construction Technology and Management",
+      "primary": true,
+      "rationale": "For Space-Habitat Layout Design-and-Evaluation Tool Balancing Human Factors and Mission Constraints, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Implement the evaluation engine that scores a layout against the competing constraints ΓÇö quantifying trade-offs e.gΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Build an interactive layout editor that lets a user place and arrange functional zones within the habitat volume and see the layoutΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Validate the scoring model so its judgements are defensible ΓÇö checking that better-scoring layouts genuinely satisfy the human-factors and mission requirements againstΓÇ¥. The resulting artefact is assessed as an end-to-end Construction Technology and Management capstone. Curriculum anchors: Construction planning and scheduling; Quality and safety in construction."
+    },
+    {
+      "key": "SP44",
+      "name": "Structural Engineering",
+      "primary": false,
+      "rationale": "For Space-Habitat Layout Design-and-Evaluation Tool Balancing Human Factors and Mission Constraints, Structural Engineering is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Validate the scoring model so its judgements are defensible ΓÇö checking that better-scoring layouts genuinely satisfy the human-factors and mission requirements againstΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Implement the evaluation engine that scores a layout against the competing constraints ΓÇö quantifying trade-offs e.gΓÇ¥ under Construction Technology and Management."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 17,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate Validation / Benchmarking / Uncertainty, Sustainability / Impact Assessment, Systems Architecture / Trade-off Analysis while reproducing the O2 reference and delivering the complete Space-Habitat Layout Design-and-Evaluation Tool Balancing Human Factors and Mission Constraints syst
+
+---
+
+{
+  "id": "CYBER-38",
+  "dom": "Cybersecurity and Blockchain Systems",
+  "title": "Explainable Policy-as-Code Validation for Infrastructure Definitions",
+  "url": "https://github.com/aws-cloudformation/cloudformation-guard",
+  "org": "Amazon Web Services (CloudFormation Guard)",
+  "src": "Infrastructure compliance as code",
+  "conf": "Source verified; problem locally unvalidated",
+  "stack": [
+    "policy DSL + evaluator",
+    "multi-format parsing",
+    "explanation generation",
+    "CI integration"
+  ],
+  "prereq": "Language design, security/compliance, CI.",
+  "sdgs": [
+    {
+      "c": "SDG 16.6",
+      "t": "Develop effective, accountable and transparent institutions",
+      "j": "Supports verifiable infrastructure compliance. The project contributes through this bounded deliverable: ΓÇ£Deliver policy-as-code validation whose explanations let engineers fix violations without further investigationΓÇ¥. The intended beneficiaries are security engineers, system owners and authorised assurance teams."
+    },
+    {
+      "c": "SDG 9.1",
+      "t": "Develop sustainable, resilient infrastructure",
+      "j": "Improves secure infrastructure practice. The project contributes through this bounded deliverable: ΓÇ£Deliver policy-as-code validation whose explanations let engineers fix violations without further investigationΓÇ¥. The intended beneficiaries are security engineers, system owners and authorised assurance teams."
+    }
+  ],
+  "impact": "Compliance tooling fails when it obstructs rather than assists. Making explanation quality a measured deliverable reframes the whole problem correctly.",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Security Testing / SIEM",
+      "SEC"
+    ],
+    [
+      "OAuth / IAM / API Security",
+      "SEC"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Privacy / Ethics / Responsible AI",
+      "PROF"
+    ],
+    [
+      "Systems Architecture / Trade-off Analysis",
+      "PROG"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP19",
+      "name": "CYBER SECURITY & BLOCKCHAIN TECHNOLOGY",
+      "primary": true,
+      "rationale": "For Explainable Policy-as-Code Validation for Infrastructure Definitions, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Generate explanations identifying the exact failing element and reasonΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Validate infrastructure documents across multiple formatsΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Scale validation across many repositories with evolving rule setsΓÇ¥. The resulting artefact is assessed as an end-to-end Cybersecurity and Blockchain Systems capstone. Curriculum anchors: Network and infrastructure security; Database system and security."
+    },
+    {
+      "key": "SP13",
+      "name": "Cloud Native Security",
+      "primary": false,
+      "rationale": "For Explainable Policy-as-Code Validation for Infrastructure Definitions, Cloud Native Security is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Scale validation across many repositories with evolving rule setsΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Generate explanations identifying the exact failing element and reasonΓÇ¥ under CYBER SECURITY & BLOCKCHAIN TECHNOLOGY. Curriculum anchors: Infrastructure as code security; Fundamentals of cloud security."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 20,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate Software Testing / Quality Assurance, Privacy / Ethics / Responsible AI, Systems Architecture / Trade-off Analysis while reproducing the O2 reference and delivering the complete Explainable Policy-as-Code Validation for Infrastructure Definitions system.",
+        "measure": "For Explainable Policy-as-Code Validation for Infrastructure Definitions, assess each student on the project-specific evidence for Software Testing / Quality Assurance, Privacy / Ethics / Responsible AI, Systems Architecture / Trade-off Analysis, objective-to-contribution traceability, individual commits or protocol ownership, final demonstration and viva; each critical competency must meet the approved rubric threshold."
+      },
+      {
+        "name": "Industry Impact",
+        "weight": 27,
+        "color": "#DB8B2A",
+        "rationale": "The integrated artefact is intended to improve the operating or decision workflow represented by ΓÇ£Scale validation across many repositories with evolving rule setsΓÇ¥.",
+        "measure": "For Explainable Policy-as-Code Validation for Infrastructure Definitions, compare the O2 reference and final system on v
+
+---
+
+{
+  "id": "CYBER-64",
+  "dom": "Software Modelling and DevOps",
+  "title": "Automating Application Security Verification Against a Graded Standard",
+  "url": "https://owasp.org/www-project-application-security-verification-standard/",
+  "org": "OWASP Foundation",
+  "src": "Application security verification standard",
+  "conf": "Source verified; problem locally unvalidated",
+  "stack": [
+    "static and dynamic analysis",
+    "CI integration",
+    "requirement mapping",
+    "coverage reporting"
+  ],
+  "prereq": "Application security, static/dynamic analysis, CI.",
+  "sdgs": [
+    {
+      "c": "SDG 16.6",
+      "t": "Develop effective, accountable and transparent institutions",
+      "j": "Improves software security assurance. The project contributes through this bounded deliverable: ΓÇ£Deliver continuous application security verification that reports what it cannot check rather than defaulting to passΓÇ¥. The intended beneficiaries are security engineers and incident responders."
+    },
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Advances verifiable engineering practice. The project contributes through this bounded deliverable: ΓÇ£Deliver continuous application security verification that reports what it cannot check rather than defaulting to passΓÇ¥. The intended beneficiaries are security engineers and incident responders."
+    }
+  ],
+  "impact": "Security verification that happens once per release cannot keep pace with continuous delivery, leaving assurance claims stale within days.",
+  "tech": [
+    [
+      "CI/CD / DevSecOps",
+      "CLOUD"
+    ],
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Security Testing / SIEM",
+      "SEC"
+    ],
+    [
+      "OAuth / IAM / API Security",
+      "SEC"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ],
+    [
+      "Kubernetes",
+      "CLOUD"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Cybersecurity Engineering",
+      "PROG"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Privacy / Ethics / Responsible AI",
+      "PROF"
+    ],
+    [
+      "Systems Architecture / Trade-off Analysis",
+      "PROG"
+    ],
+    [
+      "Technical Documentation / Communication",
+      "PROF"
+    ],
+    [
+      "Cloud / Platform Engineering",
+      "CLOUDSYS"
+    ],
+    [
+      "Performance / Reliability Engineering",
+      "CLOUDSYS"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP42",
+      "name": "SOFTWARE MODELLING & DEVOPS",
+      "primary": true,
+      "rationale": "For Automating Application Security Verification Against a Graded Standard, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Integrate verification into continuous delivery so drift is detectedΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Implement automated checks for the mechanically verifiable requirementsΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Report unverifiable requirements explicitly rather than defaulting to passΓÇ¥. The resulting artefact is assessed as an end-to-end Software Modelling and DevOps capstone. Curriculum anchors: Continuous delivery and devops; Software verification and validation."
+    },
+    {
+      "key": "SP19",
+      "name": "CYBER SECURITY & BLOCKCHAIN TECHNOLOGY",
+      "primary": false,
+      "rationale": "For Automating Application Security Verification Against a Graded Standard, CYBER SECURITY & BLOCKCHAIN TECHNOLOGY is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Report unverifiable requirements explicitly rather than defaulting to passΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Integrate verification into continuous delivery so drift is detectedΓÇ¥ under SOFTWARE MODELLING & DEVOPS. Curriculum anchors: Network and infrastructure security; Database system and security."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 20,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate Cybersecurity Engineering, Software Testing / Quality Assurance, Privacy / Ethics / Responsible AI while reproducing the O2 reference and delivering the complete Automating Application Security Verification Against a Graded Standard system.",
+        "measure": "For Automating Application Security Verification Against a Graded Standard, assess each student on the project-specific evidence for Cybersecurity Engineering, Software Testing / Quality Assurance, Privacy / Ethics / Responsible AI, objective-to-contribution traceability, individual commits or protocol ownership, final demonstration and viva; each critical competency must meet the approved rubric threshold."
+      },
+      {
+        "name": "Industry Impact",
+        "weight": 28,
+        "color": "#DB8B2A",
+        "rationale": "The integrated artefact is 
+
+---
+
+{
+  "id": "QUANTUM-19",
+  "dom": "Computational Intelligence and Optimisation",
+  "title": "Quantum Algorithm Libraries With Documented Applicability Conditions",
+  "url": "https://github.com/qiskit-community/qiskit-algorithms",
+  "org": "Qiskit Community",
+  "src": "Quantum algorithm implementations",
+  "conf": "Source verified; problem locally unvalidated",
+  "stack": [
+    "quantum algorithm implementation",
+    "precondition checking",
+    "cost accounting",
+    "versioned schema and fixture tools"
+  ],
+  "prereq": "Quantum algorithms, complexity analysis, software design.",
+  "sdgs": [
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Promotes sound quantum algorithm application. The project contributes through this bounded deliverable: ΓÇ£Deliver a quantum algorithm library that detects when a problem falls outside an algorithm's applicabilityΓÇ¥. The intended beneficiaries are quantum-software researchers, hardware teams and experiment designers."
+    },
+    {
+      "c": "SDG 4.4",
+      "t": "Increase relevant technical and vocational skills",
+      "j": "Supports correct quantum computing education. The project contributes through this bounded deliverable: ΓÇ£Deliver a quantum algorithm library that detects when a problem falls outside an algorithm's applicabilityΓÇ¥. The intended beneficiaries are quantum-software researchers, hardware teams and experiment designers."
+    }
+  ],
+  "impact": "Accessible quantum libraries are widening participation while making it easy to apply algorithms where no advantage exists and none is detected.",
+  "tech": [
+    [
+      "Quantum SDKs",
+      "QCOMP"
+    ],
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Optimisation / OR Solvers",
+      "TOOLS"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Quantum Computing",
+      "AISYS"
+    ],
+    [
+      "Research Methods / Reproducibility",
+      "PROF"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Optimisation / Operations Research",
+      "DSANLY"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP03",
+      "name": "AI for Computational Intelligence",
+      "primary": true,
+      "rationale": "For Quantum Algorithm Libraries With Documented Applicability Conditions, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Detect when a supplied problem violates those preconditionsΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Document the preconditions each algorithm requiresΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Account for state preparation and readout cost in advantage claimsΓÇ¥. The resulting artefact is assessed as an end-to-end Computational Intelligence and Optimisation capstone. Curriculum anchors: Heuristic algorithms."
+    },
+    {
+      "key": "SP15",
+      "name": "Cloud-Based Scientific Computing",
+      "primary": false,
+      "rationale": "For Quantum Algorithm Libraries With Documented Applicability Conditions, Cloud-Based Scientific Computing is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Account for state preparation and readout cost in advantage claimsΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Detect when a supplied problem violates those preconditionsΓÇ¥ under AI for Computational Intelligence."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 19,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate Quantum Computing, Research Methods / Reproducibility, Validation / Benchmarking / Uncertainty while reproducing the O2 reference and delivering the complete Quantum Algorithm Libraries With Documented Applicability Conditions system.",
+        "measure": "For Quantum Algorithm Libraries With Documented Applicability Conditions, assess each student on the project-specific evidence for Quantum Computing, Research Methods / Reproducibility, Validation / Benchmarking / Uncertainty, objective-to-contribution traceability, individual commits or protocol ownership, final demonstration and viva; each critical competency must meet the approved rubric threshold."
+      },
+      {
+        "name": "Industry Impact",
+        "weight": 25,
+        "color": "#DB8B2A",
+        "rationale": "The integrated artefact is intended to improve the operating or decision workflow represented by ΓÇ£Account for state preparation and readout cost in advantage claimsΓÇ¥.",
+        "measure": "For Quantum Algorithm Libraries With Documented Applicability Conditions, compare the O2 reference and final system on precondition violation detection (demonstrate ΓëÑ 5% relative improvement, or non-inferiority within the pre-registered tolerance with a ΓëÑ 20% gain on the paired reso
+
+---
+
+{
+  "id": "VLSI-72",
+  "dom": "VLSI and Semiconductor Design",
+  "title": "Layout Editor Design Rule Interaction for Custom Cell Development",
+  "url": "https://github.com/RTimothyEdwards/magic",
+  "org": "Magic VLSI layout tool",
+  "src": "Interactive layout editing",
+  "conf": "Source verified; problem locally unvalidated",
+  "stack": [
+    "interactive layout editing",
+    "design rule checking",
+    "incremental verification",
+    "designer studies"
+  ],
+  "prereq": "Layout design, design rules, interactive tools.",
+  "sdgs": [
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Improves custom layout productivity. The project contributes through this bounded deliverable: ΓÇ£Deliver interactive layout checking that bounds how much dependent work can rest on a violationΓÇ¥. The intended beneficiaries are chip designers, verification engineers and semiconductor tool teams."
+    },
+    {
+      "c": "SDG 4.4",
+      "t": "Increase relevant technical and vocational skills",
+      "j": "Supports layout design education. The project contributes through this bounded deliverable: ΓÇ£Deliver interactive layout checking that bounds how much dependent work can rest on a violationΓÇ¥. The intended beneficiaries are chip designers, verification engineers and semiconductor tool teams."
+    }
+  ],
+  "impact": "Custom cell layout is skilled manual work, and late violation detection wastes hours of dependent effort per occurrence.",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "C/C++",
+      "TOOLS"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "VLSI / FPGA Design",
+      "HWEMB"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Performance / Reliability Engineering",
+      "CLOUDSYS"
+    ],
+    [
+      "Project Management / Team Collaboration",
+      "PROF"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP45",
+      "name": "VLSI",
+      "primary": true,
+      "rationale": "For Layout Editor Design Rule Interaction for Custom Cell Development, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Bound how long a violation can remain undetectedΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Measure checking latency as cell complexity growsΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Prioritise checking near the region being editedΓÇ¥. The resulting artefact is assessed as an end-to-end VLSI and Semiconductor Design capstone."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 20,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate VLSI / FPGA Design, Software Testing / Quality Assurance, Performance / Reliability Engineering while reproducing the O2 reference and delivering the complete Layout Editor Design Rule Interaction for Custom Cell Development system.",
+        "measure": "For Layout Editor Design Rule Interaction for Custom Cell Development, assess each student on the project-specific evidence for VLSI / FPGA Design, Software Testing / Quality Assurance, Performance / Reliability Engineering, objective-to-contribution traceability, individual commits or protocol ownership, final demonstration and viva; each critical competency must meet the approved rubric threshold."
+      },
+      {
+        "name": "Industry Impact",
+        "weight": 28,
+        "color": "#DB8B2A",
+        "rationale": "The integrated artefact is intended to improve the operating or decision workflow represented by ΓÇ£Prioritise checking near the region being editedΓÇ¥.",
+        "measure": "For Layout Editor Design Rule Interaction for Custom Cell Development, compare the O2 reference and final system on violation detection latency (p95 Γëñ 0.80 ├ù O2 reference at equal or better functional quality) and rework avoided (ΓëÑ 80/100 and at least 5 points higher than the O2 reference); retain operating-condition, failure, recovery and independent reviewer evidence."
+      },
+      {
+        "name": "Research Impact",
+        "weight": 19,
+        "color": "#7C3AED",
+        "rationale": "The project makes a testable comparison between the O2 referenceΓÇöΓÇ£Measure checking latency as cell complexity growsΓÇ¥ΓÇöand the O3 contributionΓÇöΓÇ£Bound how long a violation can remain undetectedΓÇ¥ΓÇöincluding negative results and declared limitations.",
+        "measure": "For Layout Editor Design Rule Interaction for Custom Cell Development, use identical evidence and resource conditions, repeat stochastic trials where applicable, report uncertainty or effect size, perform the relevant ablation or differential test and provide a clean reproduction package."
+      },
+      {
+        "name": "Societal Impact",
+        "weight": 26,
+        "color": "#0A97B0",
+        "rationale": "The intended beneficiaries are chip designers, verification engineers and semiconductor too
+
+---
+
+{
+  "id": "DEAI-26",
+  "dom": "Data Engineering for AI",
+  "title": "Default-Value-Aware Schema Evolution and Historical Backfill Platform for Lakehouses",
+  "url": "https://github.com/apache/iceberg/issues/10761",
+  "org": "Apache Iceberg",
+  "src": "Iceberg Issue #10761 ΓÇö support for schema default values",
+  "stack": [
+    "Python",
+    "Data Warehouse / Lakehouse",
+    "Apache Spark",
+    "SQL / PostgreSQL",
+    "Airflow / Workflow Orchestration",
+    "Graph Databases / Knowledge Graphs",
+    "React / Next.js",
+    "Docker"
+  ],
+  "prereq": "Lakehouse architecture, SQL, Spark, data modelling and workflow orchestration.",
+  "sdgs": [
+    {
+      "c": "SDG 9.1",
+      "t": "Develop sustainable, resilient infrastructure",
+      "j": "Improves resilient analytical data infrastructure. The project contributes through this bounded deliverable: ΓÇ£Deliver a default-aware lakehouse schema-evolution and selective-backfill platform with governance and provenanceΓÇ¥. The intended beneficiaries are data engineers, analysts and platform owners."
+    },
+    {
+      "c": "SDG 12.2",
+      "t": "Sustainable management and efficient use of resources",
+      "j": "Reduces unnecessary data rewrites and storage use. The project contributes through this bounded deliverable: ΓÇ£Deliver a default-aware lakehouse schema-evolution and selective-backfill platform with governance and provenanceΓÇ¥. The intended beneficiaries are data engineers, analysts and platform owners."
+    }
+  ],
+  "impact": "enables safer schema evolution while reducing the cost and environmental footprint of historical backfills",
+  "conf": "Direct problem record",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Data Warehouse / Lakehouse",
+      "DATA"
+    ],
+    [
+      "Apache Spark",
+      "DATA"
+    ],
+    [
+      "SQL / PostgreSQL",
+      "DATA"
+    ],
+    [
+      "Airflow / Workflow Orchestration",
+      "CLOUD"
+    ],
+    [
+      "Graph Databases / Knowledge Graphs",
+      "DATA"
+    ],
+    [
+      "React / Next.js",
+      "WEB"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Data Engineering / Pipelines",
+      "DSANLY"
+    ],
+    [
+      "Database Design / Data Modelling",
+      "DSANLY"
+    ],
+    [
+      "Cloud / Platform Engineering",
+      "CLOUDSYS"
+    ],
+    [
+      "Sustainability / Impact Assessment",
+      "PROF"
+    ],
+    [
+      "Domain Knowledge / Standards Compliance",
+      "DOMENG"
+    ],
+    [
+      "Project Management / Team Collaboration",
+      "PROF"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP21",
+      "name": "Data Engineering for AI",
+      "primary": true,
+      "rationale": "For Default-Value-Aware Schema Evolution and Historical Backfill Platform for Lakehouses, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Develop default-aware evolution, selective materialisation and compatibility checksΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Implement no-default, application-default and full-backfill baselinesΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Build lineage, cost estimation, approval, rollback and downstream-impact workflowsΓÇ¥. The resulting artefact is assessed as an end-to-end Data Engineering for AI capstone. Curriculum anchors: Fundamentals of data engineering; Data exploration and preparation."
+    },
+    {
+      "key": "SP11",
+      "name": "CLOUD & EDGE COMPUTING",
+      "primary": false,
+      "rationale": "For Default-Value-Aware Schema Evolution and Historical Backfill Platform for Lakehouses, CLOUD & EDGE COMPUTING is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Build lineage, cost estimation, approval, rollback and downstream-impact workflowsΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Develop default-aware evolution, selective materialisation and compatibility checksΓÇ¥ under Data Engineering for AI."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 18,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate Data Engineering / Pipelines, Database Design / Data Modelling, Cloud / Platform Engineering while reproducing the O2 reference and delivering the complete Default-Value-Aware Schema Evolution and Historical Backfill Platform for Lakehouses system.",
+        "measure": "For Default-Value-Aware Schema Evolution and Historical Backfill Platform for Lakehouses, assess each student on the project-specific evidence for Data Engineering / Pipelines, Database Design / Data Modelling, Cloud / Platform Engineering, objective-to-contribution traceability, individual commits or protocol ownership, final demonstration and viva; each critical competency must meet the approved rubric threshold."
+      },
+      {
+        "name": "Industry Impact",
+        "weight": 33,
+
+---
+
+{
+  "id": "CINT-55",
+  "dom": "Computational Intelligence and Optimisation",
+  "title": "Action-Mask and Initial-State Integrity Verification for Turn-Based Environments",
+  "url": "https://github.com/Farama-Foundation/PettingZoo/issues/1303",
+  "org": "Farama Foundation / PettingZoo",
+  "src": "PettingZoo Issue #1303 ΓÇö incorrect initial guard location and action masks",
+  "stack": [
+    "Python",
+    "Reinforcement Learning Frameworks",
+    "Graph Databases / Knowledge Graphs",
+    "FastAPI / Django / Flask",
+    "React / Next.js",
+    "Git / Reproducible Environments",
+    "CI/CD / DevSecOps",
+    "Docker"
+  ],
+  "prereq": "Graphs, testing, Python and RL basics.",
+  "sdgs": [
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Improves reliability of intelligent-system development. The project contributes through this bounded deliverable: ΓÇ£Deliver a turn-based RL environment verifier with state invariants, legal-action assurance, counterexamples and CI integrationΓÇ¥. The intended beneficiaries are environmental analysts, response agencies and affected communities."
+    }
+  ],
+  "impact": "prevents invalid training conclusions caused by incorrect environment states and action masks",
+  "conf": "Direct problem record",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Reinforcement Learning Frameworks",
+      "AIML"
+    ],
+    [
+      "Graph Databases / Knowledge Graphs",
+      "DATA"
+    ],
+    [
+      "FastAPI / Django / Flask",
+      "WEB"
+    ],
+    [
+      "React / Next.js",
+      "WEB"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ],
+    [
+      "CI/CD / DevSecOps",
+      "CLOUD"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ]
+  ],
+  "skills": [
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Systems Architecture / Trade-off Analysis",
+      "PROG"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Full-Stack Product Engineering",
+      "PROG"
+    ],
+    [
+      "Requirements Engineering",
+      "PROG"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP03",
+      "name": "AI for Computational Intelligence",
+      "primary": true,
+      "rationale": "For Action-Mask and Initial-State Integrity Verification for Turn-Based Environments, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Implement property-based scenario generation, reachability checking and mask-transition consistency analysisΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Build deterministic initial-state and transition tests across seeds and layoutsΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Develop visual diagnostics, counterexample minimisation, repair hints and CI integrationΓÇ¥. The resulting artefact is assessed as an end-to-end Computational Intelligence and Optimisation capstone. Curriculum anchors: Reinforcement learning."
+    },
+    {
+      "key": "SP02",
+      "name": "AI & AUTONOMOUS SYSTEMS",
+      "primary": false,
+      "rationale": "For Action-Mask and Initial-State Integrity Verification for Turn-Based Environments, AI & AUTONOMOUS SYSTEMS is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Develop visual diagnostics, counterexample minimisation, repair hints and CI integrationΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Implement property-based scenario generation, reachability checking and mask-transition consistency analysisΓÇ¥ under AI for Computational Intelligence. Curriculum anchors: Reinforcement learning for autonomous system."
+    },
+    {
+      "key": "SP42",
+      "name": "SOFTWARE MODELLING & DEVOPS",
+      "primary": false,
+      "rationale": "For Action-Mask and Initial-State Integrity Verification for Turn-Based Environments, SOFTWARE MODELLING & DEVOPS is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Develop visual diagnostics, counterexample minimisation, repair hints and CI integrationΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Implement property-based scenario generation, reachability checking and mask-transition consistency analysisΓÇ¥ under AI for Computational Intelligence. Curriculum anchors: Software verification and validation."
+    }
+  ],
+  "impactProfile": {
+    "categories": [
+      {
+        "name": "Graduate Impact",
+        "weight": 19,
+        "color": "#2F5496",
+        "rationale": "The team must demonstrate Software Testing / Quality Assurance, Systems Architecture / Trade-off Analysis, Validation / Benchmarking / Uncertainty while reproducing the O2 reference and delivering the complete Action-Mask and Initial-State Integrity Verification for Turn-Based Environments system.",
+        "measure": "For Action-Mask and Initial-State Integrity Verification for Turn-Based Environments, asses
+
+---
+
+{
+  "id": "KLCAP-2026-00133",
+  "dom": "Autonomous Systems Engineering",
+  "title": "Operational Design Domain Assurance for Autoware",
+  "url": "https://github.com/autowarefoundation/autoware.universe",
+  "org": "Autoware Foundation",
+  "src": "Autoware Foundation ┬╖ official project repository",
+  "conf": "Source verified; problem locally unvalidated",
+  "stack": [
+    "Python",
+    "C++",
+    "ROS 2",
+    "simulation/SIL/HIL",
+    "Docker",
+    "OpenTelemetry",
+    "FastAPI"
+  ],
+  "prereq": "Prerequisites: AI/ML, robotics or autonomous systems, probability, control/planning, software architecture, simulation, data engineering and testing.",
+  "sdgs": [
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Strengthen engineering research capability for safe and accountable autonomous systems. The project contributes through this bounded deliverable: ΓÇ£Deliver and validate an Autoware assurance layer that encodes ODD constraints, monitors runtime conformance, triggers minimum-risk manoeuvres and generates traceable safety evidenceΓÇ¥. The intended beneficiaries are software developers, platform engineers and maintainers."
+    }
+  ],
+  "impact": "The project shall demonstrate measurable improvement in ODD violation detection, minimum-risk response time, false intervention rate against a frozen baseline, while reporting resource cost, uncertainty, adverse effects and the gap between intended and realised value for Automotive, Mobility & Transportation.",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "C/C++",
+      "TOOLS"
+    ],
+    [
+      "ROS 2 / Robot Middleware",
+      "IOT"
+    ],
+    [
+      "Gazebo / Isaac Sim / Autoware",
+      "IMM"
+    ],
+    [
+      "Prometheus / Grafana / OpenTelemetry",
+      "CLOUD"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ],
+    [
+      "CI/CD / DevSecOps",
+      "CLOUD"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ]
+  ],
+  "skills": [
+    [
+      "Systems Architecture / Trade-off Analysis",
+      "PROG"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Privacy / Ethics / Responsible AI",
+      "PROF"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Software Design / Clean Coding",
+      "PROG"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP02",
+      "name": "AI & AUTONOMOUS SYSTEMS",
+      "primary": true,
+      "rationale": "For Operational Design Domain Assurance for Autoware, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Engineer and validate an Autoware assurance layer that encodes ODD constraints, monitors runtime conformanceΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Engineer and unit-test a reproducible end-to-end reference baseline for Operational Design Domain Assurance for Autoware, including versioned evidence captureΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Integrate the complete Operational Design Domain Assurance for Autoware workflow across data or experimental inputs, technical core, user or operator interfacesΓÇ¥. The resulting artefact is assessed as an end-to-end Autonomous Systems Engineering capstone. Curriculum anchors: Autonomous electric mobility systems and applications; Reinforcement learning for autonomous system."
+    },
+    {
+      "key": "SP38",
+      "name": "Robotics & Automation",
+      "primary": false,
+      "rationale": "For Operational Design Domain Assurance for Autoware, Robotics & Automation is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate the complete Operational Design Domain Assurance for Autoware workflow across data or experimental inputs, technical core, user or operator interfacesΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Engineer and validate an Autoware assurance layer that encodes ODD constraints, monitors runtime conformanceΓÇ¥ under AI & AUTONOMOUS SYSTEMS. Curriculum anchors: Autonomous vehicles and automotive electronics; Autonomous mobile robot systems."
+    },
+    {
+      "key": "SP04",
+      "name": "AI Systems for Visual Intelligence",
+      "primary": false,
+      "rationale": "For Operational Design Domain Assurance for Autoware, AI Systems for Visual Intelligence is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate the complete Operational Design Domain Assurance for Autoware workflow across data or experimental inputs, technical core, user or operator interfacesΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Engineer and validate an Autoware assurance layer that encodes ODD constraints, monitors runtime conformanceΓÇ¥ under AI & AUTONOMOUS SYSTEMS. Curriculum anchors: Deep reinforcement learning for vision."
+    },
+    {
+      "key": "SP03",
+      "name": "AI for Computati
+
+---
+
+{
+  "id": "KLCAP-2026-00223",
+  "dom": "Computational Intelligence and Optimisation",
+  "title": "Causal Refuter Selection Assistant with Assumption-to-Test Traceability",
+  "url": "https://github.com/py-why/dowhy/issues/1168",
+  "org": "PyWhy / DoWhy",
+  "src": "DoWhy issue #1168 ΓÇö causal refuter selection and result clarity",
+  "conf": "Direct problem record",
+  "stack": [
+    "Python",
+    "DoWhy",
+    "NetworkX",
+    "statsmodels",
+    "FastAPI",
+    "React",
+    "Docker"
+  ],
+  "prereq": "Python, data structures, probability, optimisation, machine-learning fundamentals, statistics and software testing.",
+  "sdgs": [
+    {
+      "c": "SDG 9.5",
+      "t": "Enhance scientific research and technological capability",
+      "j": "Strengthens reproducible computational research and engineering capability. The project contributes through this bounded deliverable: ΓÇ£Deliver a causal refutation assistant that explains which assumption each test probes and what a pass or failure can actually establishΓÇ¥. The intended beneficiaries are security engineers and incident responders."
+    },
+    {
+      "c": "SDG 12.2",
+      "t": "Sustainable management and efficient use of resources",
+      "j": "Measures solution quality against compute, memory and energy budgets. The project contributes through this bounded deliverable: ΓÇ£Deliver a causal refutation assistant that explains which assumption each test probes and what a pass or failure can actually establishΓÇ¥. The intended beneficiaries are security engineers and incident responders."
+    }
+  ],
+  "impact": "makes causal model criticism more transparent, teachable and resistant to checklist misuse",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Optimisation / OR Solvers",
+      "TOOLS"
+    ],
+    [
+      "SQL / PostgreSQL",
+      "DATA"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ],
+    [
+      "Prometheus / Grafana / OpenTelemetry",
+      "CLOUD"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Optimisation / Operations Research",
+      "DSANLY"
+    ],
+    [
+      "Data Science / Statistical Analysis",
+      "DSANLY"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Research Methods / Reproducibility",
+      "PROF"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP03",
+      "name": "AI for Computational Intelligence",
+      "primary": true,
+      "rationale": "For Causal Refuter Selection Assistant with Assumption-to-Test Traceability, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Design, implement and tune assumption graph, applicability rules, simulation-calibrated interpretation and contradiction-aware evidence summary; compare design alternatives and perform ablationΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Engineer the controlled evidence harness and implement manual refuter selection and an unranked suite of placeboΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Integrate causal estimand parser, refuter registry, experiment runner, assumption ledger and reviewer report with observability, security or privacy controlsΓÇ¥. The resulting artefact is assessed as an end-to-end Computational Intelligence and Optimisation capstone."
+    },
+    {
+      "key": "SP22",
+      "name": "Data Science & Big Data Analytics",
+      "primary": false,
+      "rationale": "For Causal Refuter Selection Assistant with Assumption-to-Test Traceability, Data Science & Big Data Analytics is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate causal estimand parser, refuter registry, experiment runner, assumption ledger and reviewer report with observability, security or privacy controlsΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Design, implement and tune assumption graph, applicability rules, simulation-calibrated interpretation and contradiction-aware evidence summary; compare design alternatives and perform ablationΓÇ¥ under AI for Computational Intelligence. Curriculum anchors: Graph and web analytics."
+    },
+    {
+      "key": "SP21",
+      "name": "Data Engineering for AI",
+      "primary": false,
+      "rationale": "For Causal Refuter Selection Assistant with Assumption-to-Test Traceability, Data Engineering for AI is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate causal estimand parser, refuter registry, experiment runner, assumption ledger and reviewer report with observability, security or privacy controlsΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Design, implement and tune assumption graph, applicability rules, simulation-calibrated interpretation and contradiction-aware evidence summary; compare design alternatives and perform ablationΓÇ¥
+
+---
+
+{
+  "id": "KLCAP-2026-00283",
+  "dom": "Automotive Energy and CFD",
+  "title": "Drive-Cycle-Aware Unified Battery Simulation and Range-Energy Evidence Platform",
+  "url": "https://github.com/pybamm-team/PyBaMM/issues/5579",
+  "org": "PyBaMM",
+  "src": "PyBaMM issue #5579 ΓÇö Unified simulation drive-cycle support",
+  "conf": "Direct problem record",
+  "stack": [
+    "MATLAB / Simulink",
+    "Python",
+    "Energy / Power-System Simulation",
+    "Digital Twin Platforms",
+    "Git / Reproducible Environments"
+  ],
+  "prereq": "Electrochemistry, battery modelling, vehicle energy systems, numerical methods, Python or MATLAB and statistical validation.",
+  "sdgs": [
+    {
+      "c": "SDG 7.3",
+      "t": "Improve energy efficiency",
+      "j": "Improves energy-efficiency evidence for electrified mobility. The project contributes through this bounded deliverable: ΓÇ£Deliver a drive-cycle-aware battery simulation platform that converts vehicle demand into auditable cell or pack loading and reports energy, voltage, temperature and infeasibility over the routeΓÇ¥. The intended beneficiaries are energy engineers, utility operators and infrastructure planners."
+    },
+    {
+      "c": "SDG 9.4",
+      "t": "Upgrade infrastructure and industry for sustainability",
+      "j": "Supports reliable, resource-efficient battery and vehicle engineering. The project contributes through this bounded deliverable: ΓÇ£Deliver a drive-cycle-aware battery simulation platform that converts vehicle demand into auditable cell or pack loading and reports energy, voltage, temperature and infeasibility over the routeΓÇ¥. The intended beneficiaries are energy engineers, utility operators and infrastructure planners."
+    }
+  ],
+  "impact": "provides reproducible evidence linking vehicle drive demand to battery energy, limits and thermal response",
+  "tech": [
+    [
+      "MATLAB / Simulink",
+      "TOOLS"
+    ],
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "Energy / Power-System Simulation",
+      "TOOLS"
+    ],
+    [
+      "Digital Twin Platforms",
+      "TOOLS"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ],
+    [
+      "CI/CD / DevSecOps",
+      "CLOUD"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ]
+  ],
+  "skills": [
+    [
+      "Energy / Power Systems",
+      "DOMENG"
+    ],
+    [
+      "Data Science / Statistical Analysis",
+      "DSANLY"
+    ],
+    [
+      "Systems Architecture / Trade-off Analysis",
+      "PROG"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Software Design / Clean Coding",
+      "PROG"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP08",
+      "name": "AUTOMOTIVE ENERGY ENGINEERING",
+      "primary": true,
+      "rationale": "For Drive-Cycle-Aware Unified Battery Simulation and Range-Energy Evidence Platform, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Design, implement and tune a unit-safe drive-cycle compiler with resampling, power-to-current coupling, pack constraints and provenance-preserving feasibility diagnosticsΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Engineer the controlled evidence harness and implement piecewise-constant current experiments and direct drive-cycle replay using the existing simulation interface under a frozenΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Integrate route or dynamometer trace importer, vehicle demand model, pack load compiler, PyBaMM simulation, thermal and limit monitorΓÇ¥. The resulting artefact is assessed as an end-to-end Automotive Energy and CFD capstone. Curriculum anchors: Autotronics and safety; Hybrid and electric vehicle design."
+    },
+    {
+      "key": "SP25",
+      "name": "E-MOBILITY ENGINEERING",
+      "primary": false,
+      "rationale": "For Drive-Cycle-Aware Unified Battery Simulation and Range-Energy Evidence Platform, E-MOBILITY ENGINEERING is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate route or dynamometer trace importer, vehicle demand model, pack load compiler, PyBaMM simulation, thermal and limit monitorΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Design, implement and tune a unit-safe drive-cycle compiler with resampling, power-to-current coupling, pack constraints and provenance-preserving feasibility diagnosticsΓÇ¥ under AUTOMOTIVE ENERGY ENGINEERING. Curriculum anchors: Power train design for electric vehicle; Battery state estimation algorithms for electric vehicle."
+    },
+    {
+      "key": "SP29",
+      "name": "Green Energy Technologies",
+      "primary": false,
+      "rationale": "For Drive-Cycle-Aware Unified Battery Simulation and Range-Energy Evidence Platform, Green Energy Technologies is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate route or dynamometer trace 
+
+---
+
+{
+  "id": "KLCAP-2026-00397",
+  "dom": "Computational Intelligence and Optimisation",
+  "title": "Constraint-Aware Hyperparameter Search for Compatible ML Pipelines",
+  "url": "https://github.com/optuna/optuna/issues/6212",
+  "org": "Optuna",
+  "src": "Optuna issue #6212 ΓÇö Filter out incompatible hyperparameters",
+  "conf": "Direct problem record",
+  "stack": [
+    "Python 3.12+",
+    "Optuna development build",
+    "PostgreSQL / SQLite",
+    "pytest",
+    "Docker",
+    "profiling and experiment tools"
+  ],
+  "intelligenceMode": "intrinsic",
+  "intelligenceRationale": "The core contribution concerns machine-learning optimisation, reinforcement learning or graph learning. Generative AI is not required.",
+  "prereq": "Python, machine learning or numerical optimisation, experimental design, profiling and software testing.",
+  "sdgs": [
+    {
+      "c": "SDG 9.4",
+      "t": "Upgrade infrastructure and industry for sustainability",
+      "j": "Strengthens reliable, secure, resource-aware and reproducible digital or semiconductor infrastructure through measured engineering evidence. The project contributes through this bounded deliverable: ΓÇ£Deliver a declarative compatibility layer that prunes invalid hyperparameter combinations while preserving all valid regions of the search spaceΓÇ¥. The intended beneficiaries are data engineers, analysts and platform owners."
+    },
+    {
+      "c": "SDG 12.2",
+      "t": "Sustainable management and efficient use of resources",
+      "j": "Requires compute, memory, storage, hardware or network use to be measured per verified outcome rather than claimed qualitatively. The project contributes through this bounded deliverable: ΓÇ£Deliver a declarative compatibility layer that prunes invalid hyperparameter combinations while preserving all valid regions of the search spaceΓÇ¥. The intended beneficiaries are data engineers, analysts and platform owners."
+    }
+  ],
+  "impact": "Improves the correctness, resilience, security or resource efficiency of valid machine-learning configuration search by a declarative compatibility layer that prunes invalid hyperparameter combinations while preserving all valid regions of the search space.",
+  "tech": [
+    [
+      "Python",
+      "TOOLS"
+    ],
+    [
+      "SQL / PostgreSQL",
+      "DATA"
+    ],
+    [
+      "Docker",
+      "CLOUD"
+    ],
+    [
+      "Git / Reproducible Environments",
+      "TOOLS"
+    ]
+  ],
+  "skills": [
+    [
+      "Data Science / Statistical Analysis",
+      "DSANLY"
+    ],
+    [
+      "Software Testing / Quality Assurance",
+      "PROG"
+    ],
+    [
+      "Validation / Benchmarking / Uncertainty",
+      "PROF"
+    ],
+    [
+      "Research Methods / Reproducibility",
+      "PROF"
+    ]
+  ],
+  "specializations": [
+    {
+      "key": "SP03",
+      "name": "AI for Computational Intelligence",
+      "primary": true,
+      "rationale": "For Constraint-Aware Hyperparameter Search for Compatible ML Pipelines, this is the dominant specialization because the principal assessed work is the O3 contribution: ΓÇ£Implement constraint compilation and conditional sampling, then compare search efficiency with rejection sampling and manually nested search spacesΓÇ¥. Students must compare it with the O2 reference: ΓÇ£Create a versioned corpus of valid and invalid pipeline configurations and measure late failures under independent samplingΓÇ¥, then integrate the O4 operating workflow: ΓÇ£Integrate A compatibility-rule schema, constraint validator, conditional sampler adapter, pipeline builder, failure classifier and optimisation dashboardΓÇ¥. The resulting artefact is assessed as an end-to-end Computational Intelligence and Optimisation capstone."
+    },
+    {
+      "key": "SP21",
+      "name": "Data Engineering for AI",
+      "primary": false,
+      "rationale": "For Constraint-Aware Hyperparameter Search for Compatible ML Pipelines, Data Engineering for AI is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate A compatibility-rule schema, constraint validator, conditional sampler adapter, pipeline builder, failure classifier and optimisation dashboardΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Implement constraint compilation and conditional sampling, then compare search efficiency with rejection sampling and manually nested search spacesΓÇ¥ under AI for Computational Intelligence."
+    },
+    {
+      "key": "SP42",
+      "name": "SOFTWARE MODELLING & DEVOPS",
+      "primary": false,
+      "rationale": "For Constraint-Aware Hyperparameter Search for Compatible ML Pipelines, SOFTWARE MODELLING & DEVOPS is a related specialization because its methods, interfaces or assurance concerns support the O4 workflow: ΓÇ£Integrate A compatibility-rule schema, constraint validator, conditional sampler adapter, pipeline builder, failure classifier and optimisation dashboardΓÇ¥. It is supporting scope; the principal assessed contribution remains ΓÇ£Implement constraint compilation and c
+
+---
+
+
+
+BROADER SEARCH: Projects with 'traffic' in title/description
+================================================================================
+Found 92 projects
+
+  ID/Key: 18
+  Title: AyurSutra ΓÇö Panchakarma Patient Management with Tamper-Evident Records
+  Preview: {"id": "HLTH-10", "dom": "Blockchain and Web3 Engineering", "title": "AyurSutra ΓÇö Panchakarma Patient Management with Tamper-Evident Records", "url": "https://www.sih.gov.in/sih2025PS", "org": "Ministry of Ayush, Government of India", "src": "Smart India Hackathon 2025 ┬╖ PS SIH25023", "conf": "Direct challenge or benchmark record", "stack": ["React / Node.js", "Hyperledger Fabric or Ethereum testnet", "IPFS", "PostgreSQL", "RBAC"], "prereq": "Full-stack development, applied blockchain / distributed ledgers, secure design.", "sdgs": [{"c": "SDG 3.8", "t": "Universal health coverage and access to essential care", "j": "Improves delivery and record integrity in traditional-medicine care. The project contributes through this bounded deliverable: ΓÇ£Deliver an end-to-end Ayush clinic platform with conflict-free scheduling and a correctly-architected tamper-evident audit trail (on-chain hashes, off-chain PHI)ΓÇ¥. The intended beneficiaries are patients and care teams."}], "impact": "Efficiency a
+
+
+  ID/Key: 20
+  Title: Adaptive Traffic-Signal Control for Urban Congestion
+  Preview: {"id": "MOBI-02", "dom": "Geotechnical and Transportation Engineering", "title": "Adaptive Traffic-Signal Control for Urban Congestion", "url": "https://www.sih.gov.in/sih2025PS", "org": "Government of Odisha", "src": "Smart India Hackathon 2025 ┬╖ PS SIH25050", "conf": "Direct challenge or benchmark record", "stack": ["YOLOv8", "SUMO + sumo-rl", "DQN / CoLight / max-pressure", "React", "cloud"], "prereq": "Computer vision, reinforcement learning, traffic-simulation engineering.", "sdgs": [{"c": "SDG 11.2", "t": "Safe, affordable and accessible transport", "j": "Reduces congestion in urban mobility. The project contributes through this bounded deliverable: ΓÇ£Deliver an adaptive signal-control system achieving a ΓëÑ15% simulated delay reduction, benchmarked against both fixed-time and a strong actuated baselineΓÇ¥. The intended beneficiaries are transport operators, mobility planners and road users."}, {"c": "SDG 13.1", "t": "Strengthen resilience to climate-related hazards", "j": "Cuts trans
+
+
+  ID/Key: 22
+  Title: Automated Road-Network Modelling for Indian Mixed-Traffic Simulation
+  Preview: {"id": "MOBI-04", "dom": "Geotechnical and Transportation Engineering", "title": "Automated Road-Network Modelling for Indian Mixed-Traffic Simulation", "url": "https://www.sih.gov.in/sih2025PS", "org": "MathWorks India Pvt. Ltd.", "src": "Smart India Hackathon 2025 ┬╖ PS SIH25100", "conf": "Direct challenge or benchmark record", "stack": ["SUMO netconvert", "OSMnx / GIS", "MathWorks RoadRunner (optional)", "Python", "calibration tooling"], "prereq": "Simulation engineering, geospatial ETL, traffic modelling.", "sdgs": [{"c": "SDG 11.2", "t": "Safe, affordable and accessible transport", "j": "Enables better transport planning. The project contributes through this bounded deliverable: ΓÇ£Deliver an automated, calibrated network-modelling pipeline (GEH/RMSE-validated) that is ΓëÑ5├ù faster than manual creationΓÇ¥. The intended beneficiaries are transport operators, mobility planners and road users."}, {"c": "SDG 9.1", "t": "Develop sustainable, resilient infrastructure", "j": "Improves infrastru
+
+
+  ID/Key: 23
+  Title: Multi-Agent Motion Prediction for Autonomous Vehicles
+  Preview: {"id": "MOBI-05", "dom": "Autonomous Systems Engineering", "title": "Multi-Agent Motion Prediction for Autonomous Vehicles", "url": "https://www.kaggle.com/competitions/lyft-motion-prediction-autonomous-vehicles", "org": "Lyft (Level 5)", "src": "Kaggle ΓÇö Lyft Motion Prediction", "conf": "Direct challenge or benchmark record", "flag": "Ambitious ΓÇö very large dataset; use Argoverse/Lyft subsets and vectorised inputs.", "stack": ["PyTorch", "VectorNet / transformer", "l5kit / Argoverse API", "BEV rasterisation"], "prereq": "Deep learning, AV perception, sequence modelling.", "sdgs": [{"c": "SDG 11.2", "t": "Safe, affordable and accessible transport", "j": "Advances safe, efficient mobility. The project contributes through this bounded deliverable: ΓÇ£Deliver a multi-modal motion-prediction model (minADE K=6 ~0.7ΓÇô1.5 m) with a visual demonstrator and scenario analysisΓÇ¥. The intended beneficiaries are design engineers, contractors, asset owners and public-safety reviewers."}, {"c": "SDG 3.6"
+
+
+  ID/Key: 25
+  Title: Aircraft Pushback-Time Prediction for Airport Efficiency
+  Preview: {"id": "MOBI-07", "dom": "Geotechnical and Transportation Engineering", "title": "Aircraft Pushback-Time Prediction for Airport Efficiency", "url": "https://www.drivendata.org/competitions/group/competition-nasa-airport-pushback/", "org": "NASA Tournament Lab", "src": "DrivenData / NASA ΓÇö Pushback to the Future", "conf": "Direct challenge or benchmark record", "stack": ["CatBoost / XGBoost", "Fuser ingestion", "optional Flower (federated)", "Plotly dashboard"], "prereq": "Forecasting, operations analytics, dashboarding.", "sdgs": [{"c": "SDG 9.1", "t": "Develop sustainable, resilient infrastructure", "j": "Improves aviation-infrastructure efficiency. The project contributes through this bounded deliverable: ΓÇ£Deliver a pushback-prediction model (MAE ~10ΓÇô13 min) feeding a ramp-controller dashboard, benchmarked against the Fuser baselineΓÇ¥. The intended beneficiaries are drivers and fleet operators."}, {"c": "SDG 13.1", "t": "Strengthen resilience to climate-related hazards", "j": "Cuts ta
+
+
+  ID/Key: 84
+  Title: Connected-Vehicle Telematics and Driver-Behaviour Scoring
+  Preview: {"id": "IOT-09", "dom": "Embedded Systems Engineering", "title": "Connected-Vehicle Telematics and Driver-Behaviour Scoring", "url": "https://www.kaggle.com/datasets/cephasax/obdii-ds3", "org": "OBD-II driving-behaviour research", "src": "OBD-II / telematics datasets", "conf": "Direct challenge or benchmark record", "stack": ["OBD-II + IMU/GPS", "embedded logger", "edge event detection", "cloud analytics + dashboard"], "prereq": "Embedded/IoT, signal processing, analytics.", "sdgs": [{"c": "SDG 3.6", "t": "Reduce road-traffic deaths and injuries", "j": "Supports road-safety improvement. The project contributes through this bounded deliverable: ΓÇ£Deliver a telematics system with validated risky-event detection and an explainable driver-safety score in a fleet dashboardΓÇ¥. The intended beneficiaries are transport operators, mobility planners and road users."}, {"c": "SDG 11.2", "t": "Safe, affordable and accessible transport", "j": "Promotes safer mobility. The project contributes through 
+
+
+  ID/Key: 85
+  Title: Edge-Vision Obstacle Avoidance for Drones and Robots
+  Preview: {"id": "IOT-10", "dom": "Embedded Systems Engineering", "title": "Edge-Vision Obstacle Avoidance for Drones and Robots", "url": "https://developer.nvidia.com/embedded/jetson-nano", "org": "NVIDIA Jetson / ROS 2", "src": "Edge robotics (Jetson + ROS 2)", "conf": "Source verified; problem locally unvalidated", "flag": "Requires a robot/drone platform (e.g., Jetson-based) and a safe test space.", "stack": ["YOLO-nano", "NVIDIA Jetson", "ROS 2", "Gazebo (sim)"], "prereq": "Robotics, edge vision, control (ROS 2).", "sdgs": [{"c": "SDG 9.5", "t": "Enhance scientific research and technological capability", "j": "Advances autonomous-systems engineering. The project contributes through this bounded deliverable: ΓÇ£Deliver an edge-vision obstacle-avoidance system closing the perception-control loop, validated on latency and collision rateΓÇ¥. The intended beneficiaries are robotics engineers, operators and safety reviewers."}, {"c": "SDG 3.6", "t": "Reduce road-traffic deaths and injuries", "j": "Su
+
+
+  ID/Key: 87
+  Title: RTOS-Based Safety-Critical Controller with Sensor Fusion
+  Preview: {"id": "IOT-12", "dom": "Embedded Systems Engineering", "title": "RTOS-Based Safety-Critical Controller with Sensor Fusion", "url": "https://www.zephyrproject.org/", "org": "Zephyr Project (Linux Foundation)", "src": "Real-time operating systems (Zephyr / FreeRTOS)", "conf": "Source verified; problem locally unvalidated", "stack": ["Zephyr / FreeRTOS", "sensor fusion (Kalman)", "target MCU", "optional TinyML"], "prereq": "RTOS, embedded C, control systems.", "sdgs": [{"c": "SDG 9.5", "t": "Enhance scientific research and technological capability", "j": "Advances real-time embedded engineering. The project contributes through this bounded deliverable: ΓÇ£Deliver an RTOS safety-critical controller with sensor fusion, validated on deterministic timing under loadΓÇ¥. The intended beneficiaries are research engineers, benchmark maintainers and independent technical reviewers."}, {"c": "SDG 3.6", "t": "Reduce road-traffic deaths and injuries", "j": "Supports safe control systems. The project con
+
+
+  ID/Key: 124
+  Title: Smart-Contract Vulnerability Audit Tool
+  Preview: {"id": "CHAIN-09", "dom": "Blockchain and Web3 Engineering", "title": "Smart-Contract Vulnerability Audit Tool", "url": "https://github.com/crytic/slither", "org": "Trail of Bits (Slither)", "src": "Smart-contract security analysis", "conf": "Source verified; problem locally unvalidated", "stack": ["Slither / Mythril", "symbolic execution", "Solidity", "CLI/UI"], "prereq": "Smart-contract security, program analysis, tooling.", "sdgs": [{"c": "SDG 16.6", "t": "Develop effective, accountable and transparent institutions", "j": "Prevents financial losses from contract exploits. The project contributes through this bounded deliverable: ΓÇ£Deliver a smart-contract audit tool combining static and symbolic analysis, benchmarked per vulnerability classΓÇ¥. The intended beneficiaries are security engineers, system owners and authorised assurance teams."}, {"c": "SDG 9.5", "t": "Enhance scientific research and technological capability", "j": "Advances Web3 security tooling. The project contributes t
+
+
+  ID/Key: 131
+  Title: MEV Detection and Analytics Dashboard
+  Preview: {"id": "CHAIN-16", "dom": "Blockchain and Web3 Engineering", "title": "MEV Detection and Analytics Dashboard", "url": "https://www.flashbots.net/", "org": "Flashbots", "src": "Maximal Extractable Value (MEV) analysis", "conf": "Source verified; problem locally unvalidated", "stack": ["web3 data pipeline", "classification", "dashboard (React)", "GraphQL"], "prereq": "Web3 data, analytics, DeFi mechanics.", "sdgs": [{"c": "SDG 16.6", "t": "Develop effective, accountable and transparent institutions", "j": "Increases transparency of hidden value extraction. The project contributes through this bounded deliverable: ΓÇ£Deliver an MEV analytics dashboard classifying and quantifying extraction, validated against known eventsΓÇ¥. The intended beneficiaries are data engineers, analysts and platform owners."}, {"c": "SDG 9.5", "t": "Enhance scientific research and technological capability", "j": "Advances on-chain analytics. The project contributes through this bounded deliverable: ΓÇ£Deliver an MEV a
+
