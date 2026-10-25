@@ -11,7 +11,7 @@ from docx.oxml.ns import qn
 from docx.text.run import Run
 
 ROOT = Path(__file__).resolve().parents[1]
-PAPER = ROOT / 'Documents/Research paper_reference_style.docx'
+PAPER = ROOT / 'Documents/Research paper.docx'
 PREFIX = 'cp1_'
 
 

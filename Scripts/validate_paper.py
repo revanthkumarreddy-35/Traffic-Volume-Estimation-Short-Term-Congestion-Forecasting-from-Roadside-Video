@@ -10,7 +10,7 @@ from docx import Document
 from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
-PAPER = ROOT/'Documents/Research paper_reference_style.docx'
+PAPER = ROOT/'Documents/Research paper.docx'
 PDF = PAPER.with_suffix('.pdf')
 ANALYSIS = ROOT/'CP-1/Forecasting_v3_Results/Expanded_Analysis/yolo11/expanded_01'
 

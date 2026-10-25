@@ -9,7 +9,7 @@ from docx.oxml.ns import qn
 from docx.opc.constants import RELATIONSHIP_TYPE as RT
 
 ROOT = Path(__file__).resolve().parents[1]
-PAPER = ROOT / 'Documents/Research paper_reference_style.docx'
+PAPER = ROOT / 'Documents/Research paper.docx'
 # Paper titles/authors checked against primary sources on 23 October 2026.
 # DOI endpoints for 7 and 22 restrict automated retrieval; their identifiers
 # were corroborated against the chapter/research records and publisher citations.

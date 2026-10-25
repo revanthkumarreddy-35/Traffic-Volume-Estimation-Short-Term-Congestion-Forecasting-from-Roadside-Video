@@ -42,8 +42,8 @@ Local_Only/
 /Documents/*
 !/Documents/README.md
 !/Documents/requirements.txt
-!/Documents/Research paper_reference_style.docx
-!/Documents/Research paper_reference_style.pdf
+!/Documents/Research paper.docx
+!/Documents/Research paper.pdf
 !/Documents/Paper_Sources/
 /Documents/Paper_Sources/*
 !/Documents/Paper_Sources/Research paper_updated_authors.docx

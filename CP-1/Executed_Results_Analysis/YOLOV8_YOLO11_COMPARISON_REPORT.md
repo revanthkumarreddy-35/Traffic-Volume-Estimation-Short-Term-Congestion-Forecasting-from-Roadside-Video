@@ -17,7 +17,7 @@ Paired correctness: {"both_correct": 11, "only_yolov8_correct": 1, "only_yolo11_
 
 The YOLOv8 final-session manifest is available, but per-clip manifests/crossing logs are absent from this supplied folder. Historical software/hardware equality cannot be verified.
 
-Current source paper: `Documents/Paper_Sources/Research paper_updated_authors.docx`. The formatted paper is `Documents/Research paper_reference_style.docx`. Figures 1-3 and tables 2-3, 5-6 retain YOLO11 results. Table 4 compares both classifiers and baselines; Table 7 adds counts; Figure 4 compares classification matrices. The confidence bands are Figure 2 and box-area/flow plots are Figure 3, following reading order.
+Current source paper: `Documents/Paper_Sources/Research paper_updated_authors.docx`. The formatted paper is `Documents/Research paper.docx`. Figures 1-3 and tables 2-3, 5-6 retain YOLO11 results. Table 4 compares both classifiers and baselines; Table 7 adds counts; Figure 4 compares classification matrices. The confidence bands are Figure 2 and box-area/flow plots are Figure 3, following reading order.
 
 The current paper includes named authors and linked prior literature in Related
 Work. Published studies use different datasets and protocols; their reported

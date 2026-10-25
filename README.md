@@ -10,7 +10,7 @@ from detection or counting accuracy.
 
 | Task | File |
 |---|---|
-| Read the current paper | [PDF](Documents/Research%20paper_reference_style.pdf) · [Word](Documents/Research%20paper_reference_style.docx) |
+| Read the current paper | [PDF](Documents/Research%20paper.pdf) · [Word](Documents/Research%20paper.docx) |
 | Reuse completed features or run the expanded experiment | [CP1_Congestion_Improved.ipynb](CP-1/Program/CP1_Congestion_Improved.ipynb) |
 | Process videos with YOLO11 | [CP1_Vehicle_Counter_yolov11.ipynb](CP-1/Program/CP1_Vehicle_Counter_yolov11.ipynb) |
 | Run the matched YOLOv8 pilot | [CP1_Vehicle_Counter_yolov8.ipynb](CP-1/Program/CP1_Vehicle_Counter_yolov8.ipynb) |

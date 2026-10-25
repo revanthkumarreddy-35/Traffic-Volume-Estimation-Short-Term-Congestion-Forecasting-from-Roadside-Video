@@ -15,7 +15,7 @@ from docx.shared import Pt
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'Documents/Paper_Sources/Research paper_updated_authors.docx'
-TARGET = ROOT / 'Documents/Research paper_reference_style.docx'
+TARGET = ROOT / 'Documents/Research paper.docx'
 WIDTH = 520.1
 COLUMN = (WIDTH - 18) / 2
 

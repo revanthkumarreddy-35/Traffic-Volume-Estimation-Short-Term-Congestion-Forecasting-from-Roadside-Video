@@ -114,5 +114,5 @@ its result can differ from the archived 37.5% runs. Package versions and input
 hashes are saved for this reason. The current paper reports the original v2 pilot,
 cached-feature re-evaluation and expanded YOLO11 experiment as three distinct
 stages, with their own test conditions and baselines. See
-`Documents/Research paper_reference_style.pdf` and the integration provenance
+`Documents/Research paper.pdf` and the integration provenance
 in the expanded analysis folder.

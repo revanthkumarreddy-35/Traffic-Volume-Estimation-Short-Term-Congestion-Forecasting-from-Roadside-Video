@@ -1,6 +1,6 @@
 # Current paper and editable source
 
-Read `Research paper_reference_style.pdf`; the corresponding DOCX is editable.
+Read `Research paper.pdf`; the corresponding DOCX is editable.
 The canonical content source for regeneration is
 `Paper_Sources/Research paper_updated_authors.docx`.
 
