@@ -1,6 +1,10 @@
 # Data and labels
 
-The project uses the Barbados Traffic Analysis Challenge congestion labels.
+The project uses the [Barbados Traffic Analysis Challenge dataset on Zindi](https://zindi.africa/competitions/barbados-traffic-analysis-challenge/data).
+Use this official data page for the video-download locations and label files.
+The [original challenge rules](https://zindi.africa/competitions/barbados-traffic-analysis-challenge)
+list **CC BY-SA 4.0** for data sharing.
+
 `Zindi_Labels/Train.csv` is the existing 16,076-row table used in the experiments,
 with 4,019 rows for each of four Norman Niles camera views. It provides video
 paths, camera IDs, timestamps, and entering/exiting congestion ratings.

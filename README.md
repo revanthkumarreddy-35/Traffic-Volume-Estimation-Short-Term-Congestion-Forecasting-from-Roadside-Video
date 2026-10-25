@@ -18,6 +18,13 @@ from detection or counting accuracy.
 | Compare measured results | [Comparison](CP-1/Forecasting_v3_Results/COMPARISON.md) · [Expanded audit](CP-1/Forecasting_v3_Results/Expanded_Analysis/yolo11/expanded_01/REPORT.md) |
 | Check this repository review | [Review record](REVIEW.md) |
 
+## Dataset source
+
+The project uses the [Barbados Traffic Analysis Challenge dataset on Zindi](https://zindi.africa/competitions/barbados-traffic-analysis-challenge/data).
+This official data page provides the video-download locations and `Train.csv`
+congestion labels for the four Norman Niles roundabout camera views in Barbados.
+See [data setup and attribution](CP-1/Data/README.md) for the required folder layout.
+
 ## What the experiments show
 
 | Stage | Detector features / classifier | Train / test clips | Accuracy | Macro-F1 |
