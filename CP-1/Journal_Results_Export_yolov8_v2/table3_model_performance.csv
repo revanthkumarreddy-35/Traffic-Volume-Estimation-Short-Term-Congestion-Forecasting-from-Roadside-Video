@@ -1,0 +1,10 @@
+Metric,Value
+Total Detections,577
+Mean Confidence,0.6888
+Median Confidence,0.7554
+Min Confidence,0.0696
+Max Confidence,0.9329
+Std Deviation,0.1807
+Detections > 0.5 conf,464 (80.4%)
+Detections > 0.7 conf,348 (60.3%)
+Detections > 0.9 conf,18 (3.1%)

@@ -1,0 +1,41 @@
+{
+  "signature": "68d62da39833ad42411de06469017dbe5ae98f17007170f0574718537422f56b",
+  "configuration": {
+    "model": "yolo11l.pt",
+    "tracker": {
+      "tracker_type": "bytetrack",
+      "track_high_thresh": 0.4,
+      "track_low_thresh": 0.05,
+      "new_track_thresh": 0.5,
+      "track_buffer": 90,
+      "match_thresh": 0.8,
+      "gmc_method": "sparseOptFlow",
+      "proximity_thresh": 0.5,
+      "appearance_thresh": 0.25,
+      "with_reid": false,
+      "fuse_score": true
+    },
+    "lines": {
+      "default": [
+        [
+          0.05,
+          0.5
+        ],
+        [
+          0.95,
+          0.5
+        ]
+      ]
+    },
+    "processor_sha256": "9c9911458d0bdc8906298cccfe7bb85afd16597c858edf509229680f1a4646f4",
+    "plan_sha256": "f79b8790d2d7450206bec656f0c5349e2354689ce7bfb01e71c9d511ab176966",
+    "plan_semantic_sha256": "2633398cb1b16f7582bbc9b06dae14a439c71bab65ff38e5d7d83d2344244caa",
+    "sampling_limits": {
+      "train_per_camera_date": 20,
+      "test_per_camera_date": 8
+    },
+    "label_csv_sha256": "51c5e2a82367978494ccd72bf7ba888f0fa496d848a7bb25bd98fa42d50f908d",
+    "ultralytics_version": "8.4.184",
+    "version": 5
+  }
+}

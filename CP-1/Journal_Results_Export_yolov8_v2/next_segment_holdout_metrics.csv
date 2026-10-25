@@ -1,0 +1,2 @@
+train_n,test_n,train_dates,test_dates,accuracy,macro_f1,zindi_style_score,persistence_accuracy,persistence_macro_f1,majority_class_accuracy
+48,32,"2025-10-20,2025-10-21,2025-10-22,2025-10-23,2025-10-24","2025-10-25,2025-10-26",0.375,0.3541666666666667,0.36041666666666666,0.34375,0.3354145854145854,0.25

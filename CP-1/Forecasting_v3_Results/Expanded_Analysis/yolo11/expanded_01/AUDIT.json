@@ -1,0 +1,310 @@
+{
+  "review_date": "2026-10-25",
+  "source": "CP-1\\Forecasting_v3_Results\\Archives\\expanded_01",
+  "train_n": 448,
+  "test_n": 64,
+  "selected_candidate": "logistic_context",
+  "feature_n": 34,
+  "methods": {
+    "selected_model": {
+      "n": 64,
+      "correct": 46,
+      "accuracy": 0.71875,
+      "balanced_accuracy": 0.4673076923076923,
+      "macro_f1": 0.4282890575585073,
+      "classes": [
+        {
+          "label": "free flowing",
+          "correct": 40,
+          "support": 52,
+          "precision": 0.975609756097561,
+          "recall": 0.7692307692307693,
+          "f1": 0.860215053763441
+        },
+        {
+          "label": "heavy delay",
+          "correct": 3,
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        {
+          "label": "light delay",
+          "correct": 3,
+          "support": 5,
+          "precision": 0.25,
+          "recall": 0.6,
+          "f1": 0.35294117647058826
+        },
+        {
+          "label": "moderate delay",
+          "correct": 0,
+          "support": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      ],
+      "confusion_matrix": [
+        [
+          40,
+          3,
+          7,
+          2
+        ],
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "original_settings_recomputed": {
+      "n": 64,
+      "correct": 48,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.34134615384615385,
+      "macro_f1": 0.3684466019417476,
+      "classes": [
+        {
+          "label": "free flowing",
+          "correct": 45,
+          "support": 52,
+          "precision": 0.8823529411764706,
+          "recall": 0.8653846153846154,
+          "f1": 0.8737864077669903
+        },
+        {
+          "label": "heavy delay",
+          "correct": 3,
+          "support": 6,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6
+        },
+        {
+          "label": "light delay",
+          "correct": 0,
+          "support": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        {
+          "label": "moderate delay",
+          "correct": 0,
+          "support": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      ],
+      "confusion_matrix": [
+        [
+          45,
+          1,
+          5,
+          1
+        ],
+        [
+          1,
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "majority": {
+      "n": 64,
+      "correct": 52,
+      "accuracy": 0.8125,
+      "balanced_accuracy": 0.25,
+      "macro_f1": 0.22413793103448276,
+      "classes": [
+        {
+          "label": "free flowing",
+          "correct": 52,
+          "support": 52,
+          "precision": 0.8125,
+          "recall": 1.0,
+          "f1": 0.896551724137931
+        },
+        {
+          "label": "heavy delay",
+          "correct": 0,
+          "support": 6,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        {
+          "label": "light delay",
+          "correct": 0,
+          "support": 5,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        {
+          "label": "moderate delay",
+          "correct": 0,
+          "support": 1,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      ],
+      "confusion_matrix": [
+        [
+          52,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "persistence_label_baseline": {
+      "n": 64,
+      "correct": 51,
+      "accuracy": 0.796875,
+      "balanced_accuracy": 0.4009615384615385,
+      "macro_f1": 0.41788073038073037,
+      "classes": [
+        {
+          "label": "free flowing",
+          "correct": 47,
+          "support": 52,
+          "precision": 0.9038461538461539,
+          "recall": 0.9038461538461539,
+          "f1": 0.9038461538461539
+        },
+        {
+          "label": "heavy delay",
+          "correct": 3,
+          "support": 6,
+          "precision": 0.6,
+          "recall": 0.5,
+          "f1": 0.5454545454545454
+        },
+        {
+          "label": "light delay",
+          "correct": 1,
+          "support": 5,
+          "precision": 0.25,
+          "recall": 0.2,
+          "f1": 0.22222222222222224
+        },
+        {
+          "label": "moderate delay",
+          "correct": 0,
+          "support": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      ],
+      "confusion_matrix": [
+        [
+          47,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "training_class_counts": {
+    "free flowing": 269,
+    "heavy delay": 55,
+    "light delay": 58,
+    "moderate delay": 66
+  },
+  "test_class_counts": {
+    "free flowing": 52,
+    "light delay": 5,
+    "heavy delay": 6,
+    "moderate delay": 1
+  },
+  "inventory_totals": {
+    "labelled_videos": 16076,
+    "accessible_videos": 18532,
+    "matched_videos": 15892,
+    "labelled_but_missing": 184,
+    "unlabelled_videos": 2640,
+    "invalid_timing_labels": 20
+  },
+  "new_clip_logs_verified": 464,
+  "reused_historical_training_clips": 48,
+  "logged_ultralytics_versions": {
+    "8.4.184": 464
+  },
+  "new_test_overlaps_old_sources": false,
+  "near_historical_source_or_target_pairs": 0,
+  "fresh_independent_dates": false,
+  "zip_and_extracted_files_agree": true,
+  "input_and_contract_hashes_agree": true,
+  "all_method_metrics_independently_recomputed": true,
+  "conclusion": "Selected model improves macro-F1 over these baselines but loses on accuracy; this does not establish an overall forecasting improvement or detector superiority."
+}

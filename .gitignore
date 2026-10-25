@@ -1,0 +1,68 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+*.key
+*.mp4
+*.avi
+*.pt
+*.onnx
+*.joblib
+*.db
+*.zip
+Local_Only/
+.forecasting_test_*/
+
+# This small original export is an input to the pilot/cache verification.
+!CP-1/Journal_Results_Export_v2-20261020T090346Z-1-001.zip
+/CP-1/decompressed_data.txt
+/CP-1/drive-download-*/
+/CP-1/Journal_Results_Export-*/
+/CP-1/Program/CP1_Vehicle_Counter.py
+/CP-1/Program/append_cell.py
+/CP-1/Forecasting_v3_Results/Local_Runs/
+/CP-1/Forecasting_v3_Results/Expanded_Plan_Preview/
+/CP-1/Forecasting_v3_Results/Archives/*
+!/CP-1/Forecasting_v3_Results/Archives/expanded_01/
+/CP-1/Forecasting_v3_Results/Archives/expanded_01/*
+!/CP-1/Forecasting_v3_Results/Archives/expanded_01/evaluation/
+
+# Keep the labels required by offline checks, not download/account manifests.
+/CP-1/Data/*
+!/CP-1/Data/README.md
+!/CP-1/Data/Zindi_Labels/
+/CP-1/Data/Zindi_Labels/*
+!/CP-1/Data/Zindi_Labels/Train.csv
+
+# Public paper and its current source; other documents remain local.
+/Documents/*
+!/Documents/README.md
+!/Documents/requirements.txt
+!/Documents/Research paper_reference_style.docx
+!/Documents/Research paper_reference_style.pdf
+!/Documents/Paper_Sources/
+/Documents/Paper_Sources/*
+!/Documents/Paper_Sources/Research paper_updated_authors.docx
+/Project_Plan/
+/PROJECT_CLEANUP_PLAN.json
+
+# Publish supported utilities; historical migration/discovery scripts stay local.
+/Scripts/*
+!/Scripts/add_reference_links.py
+!/Scripts/create_forecasting_v3_notebook.py
+!/Scripts/create_yolov8_notebook.py
+!/Scripts/evaluate_annotated_counts.py
+!/Scripts/link_paper_cross_references.py
+!/Scripts/preview_expanded_forecasting.py
+!/Scripts/review_expanded_forecasting_export.py
+!/Scripts/review_forecasting_colab_export.py
+!/Scripts/style_paper_like_reference.py
+!/Scripts/test_forecasting_v3.py
+!/Scripts/test_vehicle_improvements.py
+!/Scripts/test_yolov8_notebook.py
+!/Scripts/validate_paper.py
+!/Scripts/verify_published_results.py

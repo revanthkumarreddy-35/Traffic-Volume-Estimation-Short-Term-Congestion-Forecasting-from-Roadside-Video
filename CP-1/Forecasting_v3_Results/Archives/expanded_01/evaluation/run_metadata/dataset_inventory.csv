@@ -1,0 +1,5 @@
+camera_id,labelled_videos,accessible_videos,matched_videos,labelled_but_missing,unlabelled_videos,invalid_timing_labels
+normanniles1,4019,4633,3973,46,660,7
+normanniles2,4019,4633,3973,46,660,4
+normanniles3,4019,4633,3973,46,660,5
+normanniles4,4019,4633,3973,46,660,4

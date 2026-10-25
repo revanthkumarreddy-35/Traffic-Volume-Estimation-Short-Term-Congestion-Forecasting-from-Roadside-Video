@@ -1,0 +1,5 @@
+true_future_class,free flowing,heavy delay,light delay,moderate delay
+free flowing,5,0,1,2
+heavy delay,1,4,0,3
+light delay,2,0,1,5
+moderate delay,1,2,3,2

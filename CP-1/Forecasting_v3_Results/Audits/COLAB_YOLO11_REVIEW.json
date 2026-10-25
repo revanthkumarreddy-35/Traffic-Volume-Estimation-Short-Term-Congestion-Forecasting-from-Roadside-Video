@@ -1,0 +1,87 @@
+{
+  "detector": "yolo11",
+  "source": "CP-1\\Forecasting_v3_Results\\Forecasting_v3_yolo11_cached",
+  "train_n": 48,
+  "test_n": 32,
+  "correct": 16,
+  "accuracy": 0.5,
+  "macro_f1": 0.49411764705882355,
+  "classes": [
+    {
+      "label": "free flowing",
+      "correct": 5,
+      "support": 8,
+      "precision": 0.5555555555555556,
+      "recall": 0.625,
+      "macro_component": 0.5882352941176471
+    },
+    {
+      "label": "heavy delay",
+      "correct": 4,
+      "support": 8,
+      "precision": 0.5714285714285714,
+      "recall": 0.5,
+      "macro_component": 0.5333333333333333
+    },
+    {
+      "label": "light delay",
+      "correct": 5,
+      "support": 8,
+      "precision": 0.5555555555555556,
+      "recall": 0.625,
+      "macro_component": 0.5882352941176471
+    },
+    {
+      "label": "moderate delay",
+      "correct": 2,
+      "support": 8,
+      "precision": 0.2857142857142857,
+      "recall": 0.25,
+      "macro_component": 0.26666666666666666
+    }
+  ],
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      4,
+      0,
+      3
+    ],
+    [
+      3,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      3,
+      3,
+      2
+    ]
+  ],
+  "same_clips_and_truth_as_archived_v2": true,
+  "independent_test": false,
+  "packages": {
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.4.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "verified": [
+    "selected predictions, confusion matrix and class metrics agree",
+    "train/test path uniqueness, dates and labels agree",
+    "validation averages and selected candidate agree",
+    "baseline counts and accuracy arithmetic agree"
+  ],
+  "limits": [
+    "Original-settings baseline predictions were not exported; its F1 was not independently recomputed.",
+    "The test set was previously examined; this is an exploratory evaluation."
+  ]
+}

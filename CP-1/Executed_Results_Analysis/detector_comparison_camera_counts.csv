@@ -1,0 +1,9 @@
+model,camera_id,total_unique_vehicles,soft_count
+YOLOv8l,normanniles1,687,502.00440000000003
+YOLOv8l,normanniles2,417,328.653
+YOLOv8l,normanniles3,572,430.5921
+YOLOv8l,normanniles4,466,339.1822
+YOLO11l,normanniles1,691,495.1793
+YOLO11l,normanniles2,422,322.1894
+YOLO11l,normanniles3,577,424.2701
+YOLO11l,normanniles4,472,330.7185

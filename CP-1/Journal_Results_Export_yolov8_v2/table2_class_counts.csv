@@ -1,0 +1,6 @@
+Vehicle Class,Entering,Exiting,Total
+Bus,0,0,0
+Car,1,0,1
+Motorcycle,0,0,0
+Truck,0,1,1
+TOTAL,1,1,2

@@ -1,0 +1,5 @@
+,free flowing,heavy delay,light delay,moderate delay
+free flowing,5,0,1,2
+heavy delay,1,4,0,3
+light delay,3,0,5,0
+moderate delay,0,3,3,2

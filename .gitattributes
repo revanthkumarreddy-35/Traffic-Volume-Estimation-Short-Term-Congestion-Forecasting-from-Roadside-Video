@@ -1,0 +1,15 @@
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+# Export hashes depend on the original CSV bytes, including line endings.
+*.csv -text whitespace=cr-at-eol
+# Matplotlib wraps SVG path coordinates with significant separating whitespace.
+*.svg text eol=lf whitespace=-blank-at-eol
+*.pdf binary
+*.docx binary
+*.png binary
+*.zip binary

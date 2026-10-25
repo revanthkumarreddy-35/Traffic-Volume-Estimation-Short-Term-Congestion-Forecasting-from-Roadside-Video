@@ -1,0 +1,5 @@
+method,n,correct,accuracy,macro_f1
+selected_model,32,13,0.40625,0.4033051378446115
+original_settings_recomputed,32,11,0.34375,0.3176470588235294
+majority,32,8,0.25,0.1
+persistence_label_baseline,32,11,0.34375,0.3354145854145854

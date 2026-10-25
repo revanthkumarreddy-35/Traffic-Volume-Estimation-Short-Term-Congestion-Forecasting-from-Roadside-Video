@@ -1,0 +1,76 @@
+{
+  "matched_clips": 80,
+  "train_n": 48,
+  "test_n": 32,
+  "matched_frames_per_run": 95235,
+  "reference_selection_sha256": "674d6de59ac56a0fd76730e00d46135330f08c70704be45d2d3a0197eb038e01",
+  "metrics": [
+    {
+      "method": "YOLOv8l features + XGBoost",
+      "correct": 12,
+      "test_n": 32,
+      "accuracy": 0.375,
+      "macro_f1": 0.3541666666666667,
+      "composite": 0.36041666666666666
+    },
+    {
+      "method": "YOLO11l features + XGBoost",
+      "correct": 12,
+      "test_n": 32,
+      "accuracy": 0.375,
+      "macro_f1": 0.378377504848093,
+      "composite": 0.3773642533936651
+    },
+    {
+      "method": "Persistence",
+      "correct": 11,
+      "test_n": 32,
+      "accuracy": 0.34375,
+      "macro_f1": 0.3354145854145854,
+      "composite": 0.3379152097902097
+    },
+    {
+      "method": "Training-majority",
+      "correct": 8,
+      "test_n": 32,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "composite": 0.145
+    }
+  ],
+  "counts": {
+    "YOLOv8l": {
+      "total_unique_vehicles": 2142.0,
+      "entering_count": 996.0,
+      "exiting_count": 1146.0,
+      "soft_count": 1600.4317,
+      "car_count": 1701.0,
+      "truck_count": 398.0,
+      "bus_count": 31.0,
+      "motorcycle_count": 12.0
+    },
+    "YOLO11l": {
+      "total_unique_vehicles": 2162.0,
+      "entering_count": 997.0,
+      "exiting_count": 1165.0,
+      "soft_count": 1572.3573000000001,
+      "car_count": 1703.0,
+      "truck_count": 421.0,
+      "bus_count": 28.0,
+      "motorcycle_count": 10.0
+    }
+  },
+  "paired_correctness": {
+    "both_correct": 11,
+    "only_yolov8_correct": 1,
+    "only_yolo11_correct": 1,
+    "both_incorrect": 19,
+    "different_predictions": 9
+  },
+  "per_clip_manifests_supplied": 0,
+  "limitations": [
+    "No manual crossing, box or identity ground truth.",
+    "Equal settings in code; historical cross-session software/hardware equality is unverified.",
+    "80 clips balanced on future labels; not a representative population sample."
+  ]
+}

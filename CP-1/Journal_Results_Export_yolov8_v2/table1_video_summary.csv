@@ -1,0 +1,11 @@
+Metric,Value
+Video File,normanniles1_2025-10-20-06-00-45.mp4
+Resolution,960x540
+Total Frames Processed,1198
+FPS,20.0
+Duration (sec),59.9
+Total Unique Vehicles Counted,2
+Soft Count (sum of crossed-track mean confidences),1.3986
+Avg Vehicles per Frame,0.48163606010016696
+Avg Bounding Box Area (px),4561.07452339688
+Avg Detection Confidence,0.689

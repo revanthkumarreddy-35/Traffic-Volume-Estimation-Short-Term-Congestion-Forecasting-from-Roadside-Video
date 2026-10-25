@@ -1,0 +1,21 @@
+{
+  "verified_date": "2026-10-25",
+  "pdf_pages": 9,
+  "preserved_equations": 51,
+  "figures": 5,
+  "research_tables": 12,
+  "reference_source_links": 26,
+  "internal_pdf_links": 55,
+  "external_pdf_links": 29,
+  "all_internal_links_resolve": true,
+  "abstract_layout": "full width, no keywords sidebar",
+  "abstract_text_preserved": true,
+  "outline_paragraph_removed": true,
+  "declarations_removed": true,
+  "figure_numbers_in_reading_order": true,
+  "new_tables_match_integration_record": true,
+  "process_explained_in": "Section 3.11 and Figure 5",
+  "comparisons_in": "Sections 4.6-4.8 and Tables 8-11",
+  "docx_sha256": "ba045b060eee745a4ac6b9ada7ceba326420e29fdb21f07cb425e6866a6e3575",
+  "pdf_sha256": "95e1a7781f820f6040bd2f3cb11170c86328db98ade92869e0e4f32fb5aa1845"
+}

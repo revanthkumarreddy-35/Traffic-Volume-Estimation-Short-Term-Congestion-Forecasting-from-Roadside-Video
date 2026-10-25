@@ -1,0 +1,193 @@
+{
+  "same_package_versions": true,
+  "same_training_and_test_clips_and_labels": true,
+  "packages": {
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.4.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "paired_outcomes": {
+    "both_correct": 10,
+    "yolo11_only_correct": 6,
+    "both_incorrect": 13,
+    "yolov8_only_correct": 3
+  },
+  "yolo11": {
+    "detector": "yolo11",
+    "source": "CP-1\\Forecasting_v3_Results\\Forecasting_v3_yolo11_cached",
+    "train_n": 48,
+    "test_n": 32,
+    "correct": 16,
+    "accuracy": 0.5,
+    "macro_f1": 0.49411764705882355,
+    "classes": [
+      {
+        "label": "free flowing",
+        "correct": 5,
+        "support": 8,
+        "precision": 0.5555555555555556,
+        "recall": 0.625,
+        "macro_component": 0.5882352941176471
+      },
+      {
+        "label": "heavy delay",
+        "correct": 4,
+        "support": 8,
+        "precision": 0.5714285714285714,
+        "recall": 0.5,
+        "macro_component": 0.5333333333333333
+      },
+      {
+        "label": "light delay",
+        "correct": 5,
+        "support": 8,
+        "precision": 0.5555555555555556,
+        "recall": 0.625,
+        "macro_component": 0.5882352941176471
+      },
+      {
+        "label": "moderate delay",
+        "correct": 2,
+        "support": 8,
+        "precision": 0.2857142857142857,
+        "recall": 0.25,
+        "macro_component": 0.26666666666666666
+      }
+    ],
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        2
+      ]
+    ],
+    "same_clips_and_truth_as_archived_v2": true,
+    "independent_test": false,
+    "packages": {
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.4.1",
+      "pandas": "2.2.3",
+      "numpy": "2.1.3"
+    },
+    "verified": [
+      "selected predictions, confusion matrix and class metrics agree",
+      "train/test path uniqueness, dates and labels agree",
+      "validation averages and selected candidate agree",
+      "baseline counts and accuracy arithmetic agree"
+    ],
+    "limits": [
+      "Original-settings baseline predictions were not exported; its F1 was not independently recomputed.",
+      "The test set was previously examined; this is an exploratory evaluation."
+    ]
+  },
+  "yolov8": {
+    "detector": "yolov8",
+    "source": "CP-1\\Forecasting_v3_Results\\Forecasting_v3_yolov8_cached",
+    "train_n": 48,
+    "test_n": 32,
+    "correct": 13,
+    "accuracy": 0.40625,
+    "macro_f1": 0.4033051378446115,
+    "classes": [
+      {
+        "label": "free flowing",
+        "correct": 5,
+        "support": 8,
+        "precision": 0.45454545454545453,
+        "recall": 0.625,
+        "macro_component": 0.5263157894736842
+      },
+      {
+        "label": "heavy delay",
+        "correct": 3,
+        "support": 8,
+        "precision": 0.5,
+        "recall": 0.375,
+        "macro_component": 0.42857142857142855
+      },
+      {
+        "label": "light delay",
+        "correct": 1,
+        "support": 8,
+        "precision": 0.125,
+        "recall": 0.125,
+        "macro_component": 0.125
+      },
+      {
+        "label": "moderate delay",
+        "correct": 4,
+        "support": 8,
+        "precision": 0.5714285714285714,
+        "recall": 0.5,
+        "macro_component": 0.5333333333333333
+      }
+    ],
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        3,
+        1
+      ],
+      [
+        4,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1,
+        4
+      ]
+    ],
+    "same_clips_and_truth_as_archived_v2": true,
+    "independent_test": false,
+    "packages": {
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.4.1",
+      "pandas": "2.2.3",
+      "numpy": "2.1.3"
+    },
+    "verified": [
+      "selected predictions, confusion matrix and class metrics agree",
+      "train/test path uniqueness, dates and labels agree",
+      "validation averages and selected candidate agree",
+      "baseline counts and accuracy arithmetic agree"
+    ],
+    "limits": [
+      "Original-settings baseline predictions were not exported; its F1 was not independently recomputed.",
+      "The test set was previously examined; this is an exploratory evaluation."
+    ]
+  },
+  "accuracy_difference_percentage_points": 9.375,
+  "macro_f1_difference": 0.09081250921421202,
+  "independent_test": false
+}

@@ -1,0 +1,270 @@
+{
+  "counts": {
+    "ref": 27,
+    "table": 17,
+    "figure": 10
+  },
+  "destinations": {
+    "cp1_table_1": "Table 1. Resolution-aware inference settings implemented in the executed notebook.",
+    "cp1_figure_1": "Figure 1. Executed-v2 dashboard for the detailed clip: predicted entering/exiting class counts, vehicle-type distribution, smoothed tracked vehicles per frame, and detection-confidence distribution (mean 0.568).",
+    "cp1_figure_2": "Figure 2. Detection-confidence bands from 686 tracked detections: 120 low, 206 medium, 232 high, and 128 very high. This is not a ground-truth confusion matrix.",
+    "cp1_table_2": "Table 2. Predicted directional tripwire crossings in the detailed executed-v2 clip.",
+    "cp1_figure_3": "Figure 3. Predicted box-area distribution (left) and directional flow (right: one entering, three exiting) in the detailed clip.",
+    "cp1_table_3": "Table 3. Predicted tripwire crossings in the selected 80 clips by camera. Soft counts are uncalibrated confidence-weighted sums.",
+    "cp1_table_4": "Table 4. Next-segment held-out classification on the same 32 clips.",
+    "cp1_table_5": "Table 5. Per-class YOLO11-feature XGBoost precision, recall and F1 on the 32-clip holdout.",
+    "cp1_table_6": "Table 6. YOLO11-feature XGBoost confusion matrix; rows are true future labels, columns are predictions.",
+    "cp1_table_7": "Table 7. Descriptive predicted crossings on the same 80 clips. Soft sums are uncalibrated confidence weights.",
+    "cp1_figure_4": "Figure 4. Stage-A original matched next-segment classification confusion matrices on the same 32 clips. Rows are true future classes, columns predicted classes; both matrices have 12 correct predictions. These evaluate congestion classification, not vehicle detection.",
+    "cp1_table_8": "Table 8. Sequential experiment protocols and selected-model outcomes. Stage-C test counts are free flowing / heavy delay / light delay / moderate delay; cross-stage accuracy differences are not controlled gains.",
+    "cp1_figure_5": "Figure 5. Process followed from the original matched pilot to cached-feature re-evaluation and expanded YOLO11 evaluation. Stage C changes the sample and class proportions; arrows indicate workflow, not guaranteed improvement.",
+    "cp1_table_9": "Table 9. Stage-B cached-feature evaluation and controls on the same original 32 test clips.",
+    "cp1_table_10": "Table 10. Stage-C class composition and selected logistic-regression performance. The single moderate-delay example provides very limited evidence for that class.",
+    "cp1_table_11": "Table 11. Stage-C expanded evaluation. Every method uses the same 64 clips; balanced accuracy is mean class recall.",
+    "cp1_table_A1": "Table A1. Notation used in the proposed formulations.",
+    "cp1_ref_1": "[1] J. Redmon, S. Divvala, R. Girshick, A. Farhadi, \u201cYou Only Look Once: Unified, Real-Time Object Detection,\u201d in Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2016. [Source]",
+    "cp1_ref_2": "[2] G. Jocher and J. Qiu, \u201cUltralytics YOLO11,\u201d 2024. https://github.com/ultralytics/ultralytics [Source]",
+    "cp1_ref_3": "[3] L. Wen et al., \u201cUA-DETRAC: A new benchmark and protocol for multi-object detection and tracking,\u201d Computer Vision and Image Understanding, 2020. [Source]",
+    "cp1_ref_4": "[4] A. Bewley, Z. Ge, L. Ott, F. Ramos, B. Upcroft, \u201cSimple Online and Realtime Tracking,\u201d in Proc. IEEE Int. Conf. Image Processing (ICIP), 2016. [Source]",
+    "cp1_ref_5": "[5] N. Wojke, A. Bewley, D. Paulus, \u201cSimple Online and Realtime Tracking with a Deep Association Metric,\u201d in Proc. IEEE ICIP, 2017. [Source]",
+    "cp1_ref_6": "[6] Y. Zhang et al., \u201cByteTrack: Multi-Object Tracking by Associating Every Detection Box,\u201d in Computer Vision, ECCV 2022. [Source]",
+    "cp1_ref_7": "[7] K. Zuiderveld, \u201cContrast Limited Adaptive Histogram Equalization,\u201d in Graphics Gems IV, Academic Press, 1994. [Source]",
+    "cp1_ref_8": "[8] T. Chen and C. Guestrin, \u201cXGBoost: A Scalable Tree Boosting System,\u201d in Proc. ACM SIGKDD, 2016. [Source]",
+    "cp1_ref_9": "[9] E. Elshebli et al., \u201cThe Impact of Weather, Lighting, and Camera Viewpoint on the Traffic Monitoring Performance of YOLO-SORT,\u201d Engineering, Technology & Applied Science Research (ETASR), 2026. [Source]",
+    "cp1_ref_10": "[10] S. Sherifi, \u201cIntelligent Traffic Monitoring with YOLOv11: A Case Study in Real-Time Vehicle Detection,\u201d arXiv:2604.04080, Apr.\u00a02026. [Source]",
+    "cp1_ref_11": "[11] J. Redmon and A. Farhadi, \u201cYOLOv3: An Incremental Improvement,\u201d arXiv:1804.02767, 2018. [Source]",
+    "cp1_ref_12": "[12] S. Ren, K. He, R. Girshick, J. Sun, \u201cFaster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,\u201d in Advances in Neural Information Processing Systems (NeurIPS), 2015. [Source]",
+    "cp1_ref_13": "[13] W. Liu et al., \u201cSSD: Single Shot MultiBox Detector,\u201d in Computer Vision, ECCV 2016. [Source]",
+    "cp1_ref_14": "[14] C.-Y. Wang, A. Bochkovskiy, H.-Y. M. Liao, \u201cYOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors,\u201d in Proc. IEEE/CVF CVPR, 2023. [Source]",
+    "cp1_ref_15": "[15] R. Khanam and M. Hussain, \u201cYOLOv11: An Overview of the Key Architectural Enhancements,\u201d arXiv:2410.17725, 2024. [Source]",
+    "cp1_ref_16": "[16] N. Aharon, R. Orfaig, B.-Z. Bobrovsky, \u201cBoT-SORT: Robust Associations Multi-Pedestrian Tracking,\u201d arXiv:2206.14651, 2022. [Source]",
+    "cp1_ref_17": "[17] J. Cao, J. Pang, X. Weng, R. Khirodkar, K. Kitani, \u201cObservation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking,\u201d in Proc. IEEE/CVF CVPR, 2023. [Source]",
+    "cp1_ref_18": "[18] Y. Du et al., \u201cStrongSORT: Make DeepSORT Great Again,\u201d IEEE Transactions on Multimedia, 2023. [Source]",
+    "cp1_ref_19": "[19] S. M. Pizer et al., \u201cAdaptive histogram equalization and its variations,\u201d Computer Vision, Graphics, and Image Processing, vol.\u00a039, no. 3, pp.\u00a0355-368, 1987. [Source]",
+    "cp1_ref_20": "[20] T.-Y. Lin et al., \u201cMicrosoft COCO: Common Objects in Context,\u201d in Computer Vision, ECCV 2014. [Source]",
+    "cp1_ref_21": "[21] Y. Lv, Y. Duan, W. Kang, Z. Li, F.-Y. Wang, \u201cTraffic Flow Prediction With Big Data: A Deep Learning Approach,\u201d IEEE Transactions on Intelligent Transportation Systems, vol.\u00a016, no. 2, pp.\u00a0865-873, 2015. [Source]",
+    "cp1_ref_22": "[22] B. M. Williams and L. A. Hoel, \u201cModeling and Forecasting Vehicular Traffic Flow as a Seasonal ARIMA Process: Theoretical Basis and Empirical Results,\u201d Journal of Transportation Engineering, vol.\u00a0129, no. 6, pp.\u00a0664-672, 2003. [Source]",
+    "cp1_ref_23": "[23] S. Hochreiter and J. Schmidhuber, \u201cLong Short-Term Memory,\u201d Neural Computation, vol.\u00a09, no. 8, pp.\u00a01735-1780, 1997. [Source]",
+    "cp1_ref_24": "[24] G. Mujtaba et al., \u201cAerial Images for Intelligent Vehicle Detection and Classification via YOLOv11 and Deep Learner,\u201d Computers, Materials & Continua, vol.\u00a086, no. 1, pp.\u00a01-19, 2026. [Source]",
+    "cp1_ref_25": "[25] F. Y. A. Cahyono, R. A. Setiawan, A. A. Razak, \u201cReal-Time Vehicle Detection and Counting Using YOLOv8 and ByteTrack Multi-Object Tracking on Surveillance Cameras,\u201d Zetroem, vol.\u00a08, no. 2, 2026. doi:10.36526/ztr.v8i2.8313 [Source]",
+    "cp1_ref_26": "[26] G. Ke et al., \u201cLightGBM: A Highly Efficient Gradient Boosting Decision Tree,\u201d in Advances in Neural Information Processing Systems (NeurIPS), 2017. [Source]"
+  },
+  "links": [
+    {
+      "text": "[10]",
+      "target": "cp1_ref_10"
+    },
+    {
+      "text": "[3]",
+      "target": "cp1_ref_3"
+    },
+    {
+      "text": "[15]",
+      "target": "cp1_ref_15"
+    },
+    {
+      "text": "[2]",
+      "target": "cp1_ref_2"
+    },
+    {
+      "text": "[20]",
+      "target": "cp1_ref_20"
+    },
+    {
+      "text": "[14]",
+      "target": "cp1_ref_14"
+    },
+    {
+      "text": "[11]",
+      "target": "cp1_ref_11"
+    },
+    {
+      "text": "[13]",
+      "target": "cp1_ref_13"
+    },
+    {
+      "text": "[12]",
+      "target": "cp1_ref_12"
+    },
+    {
+      "text": "[1]",
+      "target": "cp1_ref_1"
+    },
+    {
+      "text": "[18]",
+      "target": "cp1_ref_18"
+    },
+    {
+      "text": "[17]",
+      "target": "cp1_ref_17"
+    },
+    {
+      "text": "[16]",
+      "target": "cp1_ref_16"
+    },
+    {
+      "text": "[6]",
+      "target": "cp1_ref_6"
+    },
+    {
+      "text": "[5]",
+      "target": "cp1_ref_5"
+    },
+    {
+      "text": "[4]",
+      "target": "cp1_ref_4"
+    },
+    {
+      "text": "[24]",
+      "target": "cp1_ref_24"
+    },
+    {
+      "text": "[25]",
+      "target": "cp1_ref_25"
+    },
+    {
+      "text": "[9]",
+      "target": "cp1_ref_9"
+    },
+    {
+      "text": "[19]",
+      "target": "cp1_ref_19"
+    },
+    {
+      "text": "[7]",
+      "target": "cp1_ref_7"
+    },
+    {
+      "text": "[26]",
+      "target": "cp1_ref_26"
+    },
+    {
+      "text": "[8]",
+      "target": "cp1_ref_8"
+    },
+    {
+      "text": "[23]",
+      "target": "cp1_ref_23"
+    },
+    {
+      "text": "[21]",
+      "target": "cp1_ref_21"
+    },
+    {
+      "text": "[22]",
+      "target": "cp1_ref_22"
+    },
+    {
+      "text": "Table 8",
+      "target": "cp1_table_8"
+    },
+    {
+      "text": "[8]",
+      "target": "cp1_ref_8"
+    },
+    {
+      "text": "Table 1",
+      "target": "cp1_table_1"
+    },
+    {
+      "text": "Figure 2",
+      "target": "cp1_figure_2"
+    },
+    {
+      "text": "Figure 5",
+      "target": "cp1_figure_5"
+    },
+    {
+      "text": "11",
+      "target": "cp1_table_11"
+    },
+    {
+      "text": "10",
+      "target": "cp1_table_10"
+    },
+    {
+      "text": "Table 9",
+      "target": "cp1_table_9"
+    },
+    {
+      "text": "Figure 5",
+      "target": "cp1_figure_5"
+    },
+    {
+      "text": "Table 8",
+      "target": "cp1_table_8"
+    },
+    {
+      "text": "4",
+      "target": "cp1_figure_4"
+    },
+    {
+      "text": "1",
+      "target": "cp1_figure_1"
+    },
+    {
+      "text": "7",
+      "target": "cp1_table_7"
+    },
+    {
+      "text": "1",
+      "target": "cp1_table_1"
+    },
+    {
+      "text": "Figure 2",
+      "target": "cp1_figure_2"
+    },
+    {
+      "text": "Figure 3",
+      "target": "cp1_figure_3"
+    },
+    {
+      "text": "Table 2",
+      "target": "cp1_table_2"
+    },
+    {
+      "text": "Figure 3",
+      "target": "cp1_figure_3"
+    },
+    {
+      "text": "Figure 1",
+      "target": "cp1_figure_1"
+    },
+    {
+      "text": "Table 3",
+      "target": "cp1_table_3"
+    },
+    {
+      "text": "Figure 4",
+      "target": "cp1_figure_4"
+    },
+    {
+      "text": "6",
+      "target": "cp1_table_6"
+    },
+    {
+      "text": "5",
+      "target": "cp1_table_5"
+    },
+    {
+      "text": "Table 4",
+      "target": "cp1_table_4"
+    },
+    {
+      "text": "Table 7",
+      "target": "cp1_table_7"
+    },
+    {
+      "text": "Table 8",
+      "target": "cp1_table_8"
+    },
+    {
+      "text": "Table 10",
+      "target": "cp1_table_10"
+    },
+    {
+      "text": "Table 11",
+      "target": "cp1_table_11"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+split,next_enter_rating,clips,hard_count,soft_count
+test,free flowing,8,164,121.3792
+test,heavy delay,8,260,198.0266
+test,light delay,8,224,166.9905
+test,moderate delay,8,211,157.1819
+train,free flowing,12,142,106.68709999999999
+train,heavy delay,12,392,295.55
+train,light delay,12,365,271.3352
+train,moderate delay,12,384,283.2812

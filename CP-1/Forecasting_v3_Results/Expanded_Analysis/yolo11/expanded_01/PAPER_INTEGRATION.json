@@ -1,0 +1,178 @@
+{
+  "review_date": "2026-10-25",
+  "paper_source": "Documents\\Paper_Sources\\Research paper_updated_authors.docx",
+  "figure": "CP-1\\Forecasting_v3_Results\\Expanded_Analysis\\yolo11\\expanded_01\\forecasting_evaluation_process.png",
+  "protocol_rows": [
+    [
+      "A: original",
+      "YOLOv8l",
+      "48 / 32",
+      "Original XGBoost (14 base)",
+      "8 per class",
+      "37.500",
+      "0.3542"
+    ],
+    [
+      "A: original",
+      "YOLO11l",
+      "48 / 32",
+      "Original XGBoost (14 base)",
+      "8 per class",
+      "37.500",
+      "0.3784"
+    ],
+    [
+      "B: cached",
+      "YOLOv8l",
+      "48 / 32",
+      "Regularized XGBoost (28 context)",
+      "Same 8 per class",
+      "40.625",
+      "0.4033"
+    ],
+    [
+      "B: cached",
+      "YOLO11l",
+      "48 / 32",
+      "Regularized XGBoost (14 base)",
+      "Same 8 per class",
+      "50.000",
+      "0.4941"
+    ],
+    [
+      "C: expanded",
+      "YOLO11l",
+      "448 / 64",
+      "Logistic regression (34 context/motion)",
+      "52 / 6 / 5 / 1",
+      "71.875",
+      "0.4283"
+    ]
+  ],
+  "cached_comparison_rows": [
+    [
+      "Selected regularized XGBoost",
+      "YOLO11l",
+      "16/32",
+      "50.000",
+      "0.4941"
+    ],
+    [
+      "Refitted original XGBoost",
+      "YOLO11l",
+      "13/32",
+      "40.625",
+      "0.4098"
+    ],
+    [
+      "Training-majority",
+      "YOLO11l",
+      "8/32",
+      "25.000",
+      "0.1000"
+    ],
+    [
+      "Source-label persistence",
+      "YOLO11l",
+      "11/32",
+      "34.375",
+      "0.3354"
+    ],
+    [
+      "Selected regularized XGBoost",
+      "YOLOv8l",
+      "13/32",
+      "40.625",
+      "0.4033"
+    ],
+    [
+      "Refitted original XGBoost",
+      "YOLOv8l",
+      "11/32",
+      "34.375",
+      "0.3176"
+    ],
+    [
+      "Training-majority",
+      "YOLOv8l",
+      "8/32",
+      "25.000",
+      "0.1000"
+    ],
+    [
+      "Source-label persistence",
+      "YOLOv8l",
+      "11/32",
+      "34.375",
+      "0.3354"
+    ]
+  ],
+  "expanded_class_rows": [
+    [
+      "free flowing",
+      269,
+      52,
+      40,
+      "76.9",
+      "0.8602"
+    ],
+    [
+      "heavy delay",
+      55,
+      6,
+      3,
+      "50.0",
+      "0.5000"
+    ],
+    [
+      "light delay",
+      58,
+      5,
+      3,
+      "60.0",
+      "0.3529"
+    ],
+    [
+      "moderate delay",
+      66,
+      1,
+      0,
+      "0.0",
+      "0.0000"
+    ]
+  ],
+  "expanded_method_rows": [
+    [
+      "Selected logistic regression",
+      "46/64",
+      "71.875",
+      "46.731",
+      "0.4283"
+    ],
+    [
+      "Refitted original XGBoost",
+      "48/64",
+      "75.000",
+      "34.135",
+      "0.3684"
+    ],
+    [
+      "Training-majority",
+      "52/64",
+      "81.250",
+      "25.000",
+      "0.2241"
+    ],
+    [
+      "Source-label persistence",
+      "51/64",
+      "79.688",
+      "40.096",
+      "0.4179"
+    ]
+  ],
+  "equations_preserved": 51,
+  "figures": 5,
+  "research_tables": 12,
+  "interpretation": "Three distinct stages; no controlled improvement from 50% to 71.875%; expanded accuracy below majority and persistence."
+}

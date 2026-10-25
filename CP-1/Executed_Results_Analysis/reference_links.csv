@@ -1,0 +1,27 @@
+reference,citation,url
+1,"[1] J. Redmon, S. Divvala, R. Girshick, A. Farhadi, “You Only Look Once: Unified, Real-Time Object Detection,” in Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2016.",https://arxiv.org/abs/1506.02640
+2,"[2] G. Jocher and J. Qiu, “Ultralytics YOLO11,” 2024. https://github.com/ultralytics/ultralytics",https://docs.ultralytics.com/models/yolo11/
+3,"[3] L. Wen et al., “UA-DETRAC: A new benchmark and protocol for multi-object detection and tracking,” Computer Vision and Image Understanding, 2020.",https://arxiv.org/abs/1511.04136
+4,"[4] A. Bewley, Z. Ge, L. Ott, F. Ramos, B. Upcroft, “Simple Online and Realtime Tracking,” in Proc. IEEE Int. Conf. Image Processing (ICIP), 2016.",https://arxiv.org/abs/1602.00763
+5,"[5] N. Wojke, A. Bewley, D. Paulus, “Simple Online and Realtime Tracking with a Deep Association Metric,” in Proc. IEEE ICIP, 2017.",https://arxiv.org/abs/1703.07402
+6,"[6] Y. Zhang et al., “ByteTrack: Multi-Object Tracking by Associating Every Detection Box,” in Computer Vision, ECCV 2022.",https://arxiv.org/abs/2110.06864
+7,"[7] K. Zuiderveld, “Contrast Limited Adaptive Histogram Equalization,” in Graphics Gems IV, Academic Press, 1994.",https://doi.org/10.1016/B978-0-12-336156-1.50061-6
+8,"[8] T. Chen and C. Guestrin, “XGBoost: A Scalable Tree Boosting System,” in Proc. ACM SIGKDD, 2016.",https://arxiv.org/abs/1603.02754
+9,"[9] E. Elshebli et al., “The Impact of Weather, Lighting, and Camera Viewpoint on the Traffic Monitoring Performance of YOLO-SORT,” Engineering, Technology & Applied Science Research (ETASR), 2026.",https://doi.org/10.48084/etasr.18369
+10,"[10] S. Sherifi, “Intelligent Traffic Monitoring with YOLOv11: A Case Study in Real-Time Vehicle Detection,” arXiv:2604.04080, Apr. 2026.",https://arxiv.org/abs/2604.04080
+11,"[11] J. Redmon and A. Farhadi, “YOLOv3: An Incremental Improvement,” arXiv:1804.02767, 2018.",https://arxiv.org/abs/1804.02767
+12,"[12] S. Ren, K. He, R. Girshick, J. Sun, “Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,” in Advances in Neural Information Processing Systems (NeurIPS), 2015.",https://arxiv.org/abs/1506.01497
+13,"[13] W. Liu et al., “SSD: Single Shot MultiBox Detector,” in Computer Vision, ECCV 2016.",https://arxiv.org/abs/1512.02325
+14,"[14] C.-Y. Wang, A. Bochkovskiy, H.-Y. M. Liao, “YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors,” in Proc. IEEE/CVF CVPR, 2023.",https://arxiv.org/abs/2207.02696
+15,"[15] R. Khanam and M. Hussain, “YOLOv11: An Overview of the Key Architectural Enhancements,” arXiv:2410.17725, 2024.",https://arxiv.org/abs/2410.17725
+16,"[16] N. Aharon, R. Orfaig, B.-Z. Bobrovsky, “BoT-SORT: Robust Associations Multi-Pedestrian Tracking,” arXiv:2206.14651, 2022.",https://arxiv.org/abs/2206.14651
+17,"[17] J. Cao, J. Pang, X. Weng, R. Khirodkar, K. Kitani, “Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking,” in Proc. IEEE/CVF CVPR, 2023.",https://arxiv.org/abs/2203.14360
+18,"[18] Y. Du et al., “StrongSORT: Make DeepSORT Great Again,” IEEE Transactions on Multimedia, 2023.",https://arxiv.org/abs/2202.13514
+19,"[19] S. M. Pizer et al., “Adaptive histogram equalization and its variations,” Computer Vision, Graphics, and Image Processing, vol. 39, no. 3, pp. 355-368, 1987.",https://doi.org/10.1016/S0734-189X(87)80186-X
+20,"[20] T.-Y. Lin et al., “Microsoft COCO: Common Objects in Context,” in Computer Vision, ECCV 2014.",https://arxiv.org/abs/1405.0312
+21,"[21] Y. Lv, Y. Duan, W. Kang, Z. Li, F.-Y. Wang, “Traffic Flow Prediction With Big Data: A Deep Learning Approach,” IEEE Transactions on Intelligent Transportation Systems, vol. 16, no. 2, pp. 865-873, 2015.",https://doi.org/10.1109/TITS.2014.2345663
+22,"[22] B. M. Williams and L. A. Hoel, “Modeling and Forecasting Vehicular Traffic Flow as a Seasonal ARIMA Process: Theoretical Basis and Empirical Results,” Journal of Transportation Engineering, vol. 129, no. 6, pp. 664-672, 2003.",https://doi.org/10.1061/(ASCE)0733-947X(2003)129:6(664)
+23,"[23] S. Hochreiter and J. Schmidhuber, “Long Short-Term Memory,” Neural Computation, vol. 9, no. 8, pp. 1735-1780, 1997.",https://doi.org/10.1162/neco.1997.9.8.1735
+24,"[24] G. Mujtaba et al., “Aerial Images for Intelligent Vehicle Detection and Classification via YOLOv11 and Deep Learner,” Computers, Materials & Continua, vol. 86, no. 1, pp. 1-19, 2026.",https://www.techscience.com/cmc/v86n1/64404/html
+25,"[25] F. Y. A. Cahyono, R. A. Setiawan, A. A. Razak, “Real-Time Vehicle Detection and Counting Using YOLOv8 and ByteTrack Multi-Object Tracking on Surveillance Cameras,” Zetroem, vol. 8, no. 2, 2026. doi:10.36526/ztr.v8i2.8313",https://ejournal.unibabwi.ac.id/index.php/Zetroem/article/view/8313
+26,"[26] G. Ke et al., “LightGBM: A Highly Efficient Gradient Boosting Decision Tree,” in Advances in Neural Information Processing Systems (NeurIPS), 2017.",https://proceedings.neurips.cc/paper_files/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html

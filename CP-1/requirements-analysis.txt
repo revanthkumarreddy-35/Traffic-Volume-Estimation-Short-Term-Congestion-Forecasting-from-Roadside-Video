@@ -1,0 +1,9 @@
+# CPU analysis and offline checks; historical versions are recorded in each export.
+numpy>=2.0,<3
+pandas>=2.2,<4
+scikit-learn>=1.6,<2
+xgboost>=2.0,<4
+matplotlib>=3.8,<4
+joblib>=1.4,<2
+opencv-python>=4.8,<5
+PyYAML>=6,<7
