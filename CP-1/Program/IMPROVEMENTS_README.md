@@ -1,6 +1,12 @@
 # Vehicle counter v2: how to run and report it
 
-For the new accuracy-improvement workflow, open `CP1_Congestion_Improved.ipynb`.
+For the new all-video **junction-movement** experiment, open
+[CP1_Junction_Movement_v4.ipynb](CP1_Junction_Movement_v4.ipynb) and follow
+[JUNCTION_V4_README.md](JUNCTION_V4_README.md). It requires camera-specific
+road gates and annotated-pilot review before processing all four camera folders.
+The v2/v3 instructions below reproduce the historical single-tripwire experiments.
+
+For the earlier v3 forecasting workflow, open `CP1_Congestion_Improved.ipynb`.
 See [FORECASTING_V3_README.md](FORECASTING_V3_README.md) for CPU reuse of completed
 features, chronological validation, and optional expanded GPU extraction.
 

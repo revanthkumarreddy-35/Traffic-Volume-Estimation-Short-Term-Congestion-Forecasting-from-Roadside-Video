@@ -1,5 +1,10 @@
 # Improved congestion forecasting
 
+For the newer calibrated road-arm movement workflow covering all four camera
+folders, see [JUNCTION_V4_README.md](JUNCTION_V4_README.md) and
+[CP1_Junction_Movement_v4.ipynb](CP1_Junction_Movement_v4.ipynb).
+This page documents the earlier v3 single-tripwire experiments.
+
 Open **CP1_Congestion_Improved.ipynb** with a Colab GPU kernel in VS Code.
 The active notebook is now configured for `RUN_MODE = 'expanded'` and
 `DETECTOR = 'yolo11'`. Select a GPU (for example T4), restart the kernel if needed,

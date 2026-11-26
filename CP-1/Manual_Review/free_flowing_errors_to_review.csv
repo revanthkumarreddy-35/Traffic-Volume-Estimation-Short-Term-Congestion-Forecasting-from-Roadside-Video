@@ -1,0 +1,13 @@
+﻿number, camera      , source_video_to_count                            , target_video_to_review                           , provided_target_label, model_prediction, counting_line
+     1, normanniles1, normanniles1/normanniles1_2025-10-26-14-47-45.mp4, normanniles1/normanniles1_2025-10-26-14-48-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"
+     2, normanniles1, normanniles1/normanniles1_2025-10-26-15-35-45.mp4, normanniles1/normanniles1_2025-10-26-15-36-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"
+     3, normanniles2, normanniles2/normanniles2_2025-10-25-16-46-45.mp4, normanniles2/normanniles2_2025-10-25-16-47-45.mp4, free flowing         , heavy delay     , "(48, 270)->(912, 270)"
+     4, normanniles2, normanniles2/normanniles2_2025-10-25-17-33-45.mp4, normanniles2/normanniles2_2025-10-25-17-34-45.mp4, free flowing         , heavy delay     , "(48, 270)->(912, 270)"
+     5, normanniles2, normanniles2/normanniles2_2025-10-26-13-10-45.mp4, normanniles2/normanniles2_2025-10-26-13-11-45.mp4, free flowing         , moderate delay  , "(48, 270)->(912, 270)"
+     6, normanniles2, normanniles2/normanniles2_2025-10-26-14-42-45.mp4, normanniles2/normanniles2_2025-10-26-14-43-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"
+     7, normanniles2, normanniles2/normanniles2_2025-10-26-17-06-45.mp4, normanniles2/normanniles2_2025-10-26-17-07-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"
+     8, normanniles3, normanniles3/normanniles3_2025-10-25-17-01-45.mp4, normanniles3/normanniles3_2025-10-25-17-02-45.mp4, free flowing         , heavy delay     , "(48, 270)->(912, 270)"
+     9, normanniles3, normanniles3/normanniles3_2025-10-26-13-07-45.mp4, normanniles3/normanniles3_2025-10-26-13-08-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"
+    10, normanniles3, normanniles3/normanniles3_2025-10-26-13-59-45.mp4, normanniles3/normanniles3_2025-10-26-14-00-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"
+    11, normanniles4, normanniles4/normanniles4_2025-10-25-11-31-45.mp4, normanniles4/normanniles4_2025-10-25-11-32-45.mp4, free flowing         , moderate delay  , "(48, 270)->(912, 270)"
+    12, normanniles4, normanniles4/normanniles4_2025-10-26-15-57-45.mp4, normanniles4/normanniles4_2025-10-26-15-58-45.mp4, free flowing         , light delay     , "(48, 270)->(912, 270)"

@@ -11,6 +11,8 @@ from detection or counting accuracy.
 | Task | File |
 |---|---|
 | Read the current paper | [PDF](Documents/Research%20paper.pdf) · [Word](Documents/Research%20paper.docx) |
+| Read the final capstone report | [PDF](Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.pdf) ? [Word](Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.docx) |
+| Calibrate road-arm gates and process all four camera folders (new experiment) | [CP1_Junction_Movement_v4.ipynb](CP-1/Program/CP1_Junction_Movement_v4.ipynb) · [Instructions](CP-1/Program/JUNCTION_V4_README.md) |
 | Reuse completed features or run the expanded experiment | [CP1_Congestion_Improved.ipynb](CP-1/Program/CP1_Congestion_Improved.ipynb) |
 | Process videos with YOLO11 | [CP1_Vehicle_Counter_yolov11.ipynb](CP-1/Program/CP1_Vehicle_Counter_yolov11.ipynb) |
 | Run the matched YOLOv8 pilot | [CP1_Vehicle_Counter_yolov8.ipynb](CP-1/Program/CP1_Vehicle_Counter_yolov8.ipynb) |
@@ -48,6 +50,13 @@ identities and crossing counts are unavailable, so detection mAP, MOTA and count
 MAE/RMSE are not reported. Confidence-weighted counts are uncalibrated model outputs.
 
 ## Run in VS Code with the Colab extension
+
+For the new **junction-movement** workflow, use
+[CP1_Junction_Movement_v4.ipynb](CP-1/Program/CP1_Junction_Movement_v4.ipynb)
+and follow [calibration → pilot → batch → evaluation](CP-1/Program/JUNCTION_V4_README.md).
+It covers all videos in the four camera folders after camera-specific gates and
+annotated pilots are reviewed. New counting/forecasting results have not yet been
+measured. The instructions below reproduce the earlier single-tripwire workflow.
 
 1. Open `CP1_Congestion_Improved.ipynb` and connect a Colab kernel.
 2. Edit the **configuration cell before Run All**. Use `RUN_MODE = 'cached'` and

@@ -16,6 +16,8 @@ __pycache__/
 *.zip
 Local_Only/
 .forecasting_test_*/
+.junction_test_*/
+.junction_browser_*/
 
 # This small original export is an input to the pilot/cache verification.
 !CP-1/Journal_Results_Export_v2-20261020T090346Z-1-001.zip
@@ -55,6 +57,7 @@ Local_Only/
 !/Scripts/add_reference_links.py
 !/Scripts/create_forecasting_v3_notebook.py
 !/Scripts/create_yolov8_notebook.py
+!/Scripts/create_junction_v4_notebook.py
 !/Scripts/evaluate_annotated_counts.py
 !/Scripts/link_paper_cross_references.py
 !/Scripts/preview_expanded_forecasting.py
@@ -62,7 +65,19 @@ Local_Only/
 !/Scripts/review_forecasting_colab_export.py
 !/Scripts/style_paper_like_reference.py
 !/Scripts/test_forecasting_v3.py
+!/Scripts/test_junction_v4.py
+!/Scripts/test_junction_drawing_browser.py
 !/Scripts/test_vehicle_improvements.py
 !/Scripts/test_yolov8_notebook.py
 !/Scripts/validate_paper.py
 !/Scripts/verify_published_results.py
+
+# Publish the final capstone report; report drafts remain local.
+!/Documents/Reports/
+/Documents/Reports/*
+!/Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.docx
+!/Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.pdf
+
+# Local copies and unreviewed raw execution output.
+/Main_Project/
+/CP-1/Forecasting_v3_Results/2d3c39a6b187/
