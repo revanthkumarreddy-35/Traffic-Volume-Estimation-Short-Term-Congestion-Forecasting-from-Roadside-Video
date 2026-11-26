@@ -41,13 +41,7 @@ The notebook now writes `extracted_features_yolo11_v2.csv`, `crossing_logs_v2/`,
 
 Crossing logs record the per-frame tracked positions and each crossing event. The hard count is one crossing per tracker ID per clip. The soft count is the sum of mean detection confidences for those crossed tracks; it is an exploratory weighted count, **not** a validated improvement. Review the line placement and several annotated samples per camera. If two runs differ by one crossing, compare the event log, track observations, and run manifest before attributing the difference to the detector.
 
-To evaluate counting, copy `manual_count_annotations_template.csv` to a new CSV and enter eight rows for each fully annotated clip: each of car/motorcycle/bus/truck, for entering and exiting, including zeros. Use the exact relative `video_path` from the v2 feature CSV. After copying the v2 feature CSV and crossing logs from Drive to your machine, run:
-
-```powershell
-py Scripts/evaluate_annotated_counts.py --features "path/to/extracted_features_yolo11_v2.csv" --ground-truth "path/to/annotated_counts.csv" --crossing-log-dir "path/to/crossing_logs_v2" --output-dir "path/to/count_evaluation"
-```
-
-The script reports hard and soft MAE/RMSE on the same annotated clips. It refuses partial annotations. For detection mAP, prepare held-out bounding-box labels and use Ultralytics `model.val(data="dataset.yaml", split="test")`. MOTA additionally requires per-frame track-identity annotations. Weather comparisons require clip-level weather labels and a sufficiently sized group in each condition. None of these can be inferred from confidence scores or the existing Zindi congestion labels alone.
+To evaluate counting, copy `manual_count_annotations_template.csv` to a new CSV and enter eight rows for each fully annotated clip: each of car/motorcycle/bus/truck, for entering and exiting, including zeros. Use the exact relative `video_path` from the v2 feature CSV. Use the completed manual annotations with a count evaluator that compares the same clips, crossing logs, and vehicle classes. Report hard and soft MAE/RMSE only for the fully annotated clips. It refuses partial annotations. For detection mAP, prepare held-out bounding-box labels and use Ultralytics `model.val(data="dataset.yaml", split="test")`. MOTA additionally requires per-frame track-identity annotations. Weather comparisons require clip-level weather labels and a sufficiently sized group in each condition. None of these can be inferred from confidence scores or the existing Zindi congestion labels alone.
 
 The current paper reports the original v2 comparison, cached classifier selection,
 and expanded YOLO11 experiment as separate stages. See

@@ -107,16 +107,8 @@ drawing_tools.import_drawn_gates(
 
 You can download an unfinished drawing draft and resume it in the browser later. Drawn JSON is bound to the original reference pictures, so another camera's image or a generated illustration cannot silently replace the actual calibration. Pilot-direction review is still required; use a widget-capable notebook client for that step. For a view needing 2-6 gates rather than three, the underlying geometry validator supports IDs A-F, but the simple mouse editor is specifically for the three-road A/B/C workflow.
 
-## Verification and primary documentation
+## Implementation and primary documentation
 
-Run locally:
-
-```powershell
-py -B Scripts/test_junction_v4.py
-```
-
-These tests use synthetic trajectories, synthetic video and a fake detector, plus real CPU classifier fitting. They check movement separation, finite gate intersections, partial tracks, gaps/identity switches, line dwell, source/label leakage, chronological model selection, blank-annotation rejection, checkpoint resume/tamper detection, and embedded notebook/source equality. They do not claim GPU or full-dataset execution.
-
-The optional `py -B Scripts/test_junction_drawing_browser.py` additionally checks real mouse clicks, line dragging, resized-picture coordinates, undo/redraw, four-camera saving, JSON download and drawing resumption in an isolated headless Chrome/Edge profile. It requires Node 22+ and Chrome/Edge. Browser drawings are then checked by the Python calibration importer. The normal test suite also verifies that updates preserve an executed notebook's configuration and unrelated outputs.
+The notebook embeds the calibration, counting, drawing, and forecasting modules used by the road-arm workflow. Its pilot and batch records preserve calibration geometry, inventory, clip-level events, journeys, quality flags, and evaluation exports. Review the annotated pilot videos and gate-event files before starting a batch.
 
 Technical references: [Ultralytics tracking](https://docs.ultralytics.com/modes/track/), [ByteTrack API](https://docs.ultralytics.com/reference/trackers/byte_tracker/), and [chronological evaluation guidance](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-of-time-series-data). Dataset: [Zindi Barbados Traffic Analysis Challenge](https://zindi.africa/competitions/barbados-traffic-analysis-challenge/data).

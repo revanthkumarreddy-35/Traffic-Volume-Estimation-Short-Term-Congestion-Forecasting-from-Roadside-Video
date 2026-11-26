@@ -10,8 +10,7 @@ from detection or counting accuracy.
 
 | Task | File |
 |---|---|
-| Read the current paper | [PDF](Documents/Research%20paper.pdf) · [Word](Documents/Research%20paper.docx) |
-| Read the final capstone report | [PDF](Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.pdf) ? [Word](Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.docx) |
+| Read the research paper | [PDF](Research_Paper/Comparative_Evaluation_of_YOLOv8l_and_YOLO11l_for_Roadside_Traffic_Monitoring_and_Next-Segment_Congestion_Classification.pdf) |
 | Calibrate road-arm gates and process all four camera folders (new experiment) | [CP1_Junction_Movement_v4.ipynb](CP-1/Program/CP1_Junction_Movement_v4.ipynb) · [Instructions](CP-1/Program/JUNCTION_V4_README.md) |
 | Reuse completed features or run the expanded experiment | [CP1_Congestion_Improved.ipynb](CP-1/Program/CP1_Congestion_Improved.ipynb) |
 | Process videos with YOLO11 | [CP1_Vehicle_Counter_yolov11.ipynb](CP-1/Program/CP1_Vehicle_Counter_yolov11.ipynb) |
@@ -78,35 +77,16 @@ Published notebooks have execution outputs cleared. CSV predictions, metrics and
 figures retain the measured evidence. Re-running fits new classifiers; dependency
 versions can change exact predictions. Original exports are kept separately.
 
-## Verify results locally without a GPU
+## Review published evidence
 
-Python 3.12 or later is suitable for the analysis workflow. From the repository root:
+The repository retains measured predictions, metrics, figures, and evaluation records for review:
 
-```powershell
-py -m pip install -r CP-1/requirements-analysis.txt
-py Scripts/verify_published_results.py
-py Scripts/test_forecasting_v3.py
-py Scripts/test_vehicle_improvements.py
-py Scripts/test_yolov8_notebook.py
-```
+- [Matched YOLOv8l/YOLO11l comparison](CP-1/Executed_Results_Analysis/YOLOV8_YOLO11_COMPARISON_REPORT.md)
+- [Cached and expanded comparison](CP-1/Forecasting_v3_Results/COMPARISON.md)
+- [Expanded evaluation report](CP-1/Forecasting_v3_Results/Archives/expanded_01/evaluation/REPORT.md)
+- [Manual playback review record](CP-1/Manual_Review/MANUAL_REVIEW_NOTES.md)
 
-On Linux/macOS use `python` in place of `py`. The result verifier uses the standard
-library, reads saved predictions and does not retrain or load serialized models.
-The three test scripts check feature leakage, chronological splits, label-blind
-sampling, checkpoint compatibility, tracker resets, finite-line crossings and
-matched detector selections. They use synthetic videos/extractors, not GPU inference.
-
-To fit a new local cached experiment:
-
-```powershell
-py CP-1/Program/congestion_forecasting_v3.py --model yolo11
-py CP-1/Program/congestion_forecasting_v3.py --model yolov8
-```
-
-New local runs go to ignored `CP-1/Forecasting_v3_Results/Local_Runs/` folders.
-The reviewed Stage-B exports record scikit-learn 1.6.1, XGBoost 3.4.1,
-pandas 2.2.3 and NumPy 2.1.3; the installation requirements are compatibility
-ranges, not a bit-for-bit recreation of those historical environments.
+The repository provides runnable Colab notebooks and their supporting modules under `CP-1/Program/`.
 
 ## Repository contents and evidence
 
@@ -119,11 +99,9 @@ ranges, not a bit-for-bit recreation of those historical environments.
   exports required by the cached-data reader and the matched-selection checks.
 - `CP-1/Forecasting_v3_Results/`: Stage-B exports, Stage-C evaluation CSVs/figure,
   run metadata and verification reports. Large tracking logs and model binaries
-  are local artifacts. The full `review_expanded_forecasting_export.py` audit
-  additionally needs the original expanded ZIP and 464 clip logs; the portable
-  `verify_published_results.py` checks the evidence included in a clone.
-- `Documents/`: current paper, editable source and build instructions.
-- `Scripts/`: supported analysis, verification and paper-formatting utilities.
+  are local artifacts. The retained evaluation reports document the archived results; original expanded ZIP files and full clip logs remain local artifacts.
+- `Research_Paper/`: current publication PDF.
+- `CP-1/Program/`: runnable notebooks and supporting Python modules.
 
 Raw videos, download manifests, fitted models, execution-output backups,
 administrative records, chat history, third-party reference PDFs, superseded

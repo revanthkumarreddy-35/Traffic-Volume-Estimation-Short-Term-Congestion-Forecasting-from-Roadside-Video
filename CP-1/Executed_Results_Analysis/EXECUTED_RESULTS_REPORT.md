@@ -3,7 +3,7 @@
 Update (23 October 2026): this report retains the original YOLO11-only audit.
 The matched YOLOv8/YOLO11 comparison and current paper changes are documented in
 [YOLOV8_YOLO11_COMPARISON_REPORT.md](YOLOV8_YOLO11_COMPARISON_REPORT.md).
-The current paper is `Documents/Research paper.pdf`.
+The current paper is [`Research_Paper/Comparative_Evaluation_of_YOLOv8l_and_YOLO11l_for_Roadside_Traffic_Monitoring_and_Next-Segment_Congestion_Classification.pdf`](../../Research_Paper/Comparative_Evaluation_of_YOLOv8l_and_YOLO11l_for_Roadside_Traffic_Monitoring_and_Next-Segment_Congestion_Classification.pdf).
 
 Source: `Journal_Results_Export_v2-20261020T090346Z-1-001.zip` and the saved notebook execution outputs.
 

@@ -1,6 +1,5 @@
 {
   "review_date": "2026-10-25",
-  "paper_source": "Documents\\Paper_Sources\\Research paper_updated_authors.docx",
   "figure": "CP-1\\Forecasting_v3_Results\\Expanded_Analysis\\yolo11\\expanded_01\\forecasting_evaluation_process.png",
   "protocol_rows": [
     [
@@ -174,5 +173,7 @@
   "equations_preserved": 51,
   "figures": 5,
   "research_tables": 12,
-  "interpretation": "Three distinct stages; no controlled improvement from 50% to 71.875%; expanded accuracy below majority and persistence."
+  "interpretation": "Three distinct stages; no controlled improvement from 50% to 71.875%; expanded accuracy below majority and persistence.",
+  "reviewed_local_docx": "Documents/Paper_Sources/Research paper_updated_authors.docx (local source used for the 2026-10-25 review)",
+  "published_paper_pdf": "Research_Paper/Comparative_Evaluation_of_YOLOv8l_and_YOLO11l_for_Roadside_Traffic_Monitoring_and_Next-Segment_Congestion_Classification.pdf"
 }

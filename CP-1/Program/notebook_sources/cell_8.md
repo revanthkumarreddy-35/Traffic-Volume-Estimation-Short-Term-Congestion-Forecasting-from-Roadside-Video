@@ -2,7 +2,7 @@
 
 The detector uses pretrained COCO weights. A confidence score is **not** detection accuracy. The confidence-band table and plots above are descriptive statistics, not a confusion matrix. No mAP, MOTA, counting RMSE, weather robustness, or forecasting score should be reported unless an appropriate evaluation has actually run.
 
-For counting, manually annotate several complete clips with `video_path`, `direction`, `vehicle_class`, and `ground_truth_count`. Compare those rows with the v2 feature CSV using `Scripts/evaluate_annotated_counts.py` from the project workspace. The script computes hard- and soft-count MAE/RMSE on the *same* clips and reports the sample size. Sample clips across cameras, lighting, and congestion classes; keep a separate holdout set.
+For counting, manually annotate several complete clips with `video_path`, `direction`, `vehicle_class`, and `ground_truth_count`. Compare those rows with the v2 feature CSV using a count evaluator that computes hard- and soft-count MAE/RMSE on the *same* clips and reports the sample size. Sample clips across cameras, lighting, and congestion classes; keep a separate holdout set.
 
 For detection mAP, label image frames with bounding boxes in YOLO dataset format, prepare a data YAML with train/val/test splits, and run Ultralytics `model.val(data=..., split="test")` on held-out images. For MOTA, annotate per-frame track identities and use a tracking evaluator; crossing totals alone cannot produce MOTA. Weather degradation needs weather labels and a comparison of the same metric by weather group. Do not transfer metrics from another study or a pretrained model card to this dataset.
 

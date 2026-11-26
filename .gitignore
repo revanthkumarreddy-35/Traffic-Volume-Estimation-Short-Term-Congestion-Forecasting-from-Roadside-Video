@@ -40,43 +40,11 @@ Local_Only/
 /CP-1/Data/Zindi_Labels/*
 !/CP-1/Data/Zindi_Labels/Train.csv
 
-# Public paper and its current source; other documents remain local.
-/Documents/*
-!/Documents/README.md
-!/Documents/requirements.txt
-!/Documents/Research paper.docx
-!/Documents/Research paper.pdf
-!/Documents/Paper_Sources/
-/Documents/Paper_Sources/*
-!/Documents/Paper_Sources/Research paper_updated_authors.docx
+# Local document drafts and retired utility scripts are not published.
+/Documents/
+/Scripts/
 /Project_Plan/
 /PROJECT_CLEANUP_PLAN.json
-
-# Publish supported utilities; historical migration/discovery scripts stay local.
-/Scripts/*
-!/Scripts/add_reference_links.py
-!/Scripts/create_forecasting_v3_notebook.py
-!/Scripts/create_yolov8_notebook.py
-!/Scripts/create_junction_v4_notebook.py
-!/Scripts/evaluate_annotated_counts.py
-!/Scripts/link_paper_cross_references.py
-!/Scripts/preview_expanded_forecasting.py
-!/Scripts/review_expanded_forecasting_export.py
-!/Scripts/review_forecasting_colab_export.py
-!/Scripts/style_paper_like_reference.py
-!/Scripts/test_forecasting_v3.py
-!/Scripts/test_junction_v4.py
-!/Scripts/test_junction_drawing_browser.py
-!/Scripts/test_vehicle_improvements.py
-!/Scripts/test_yolov8_notebook.py
-!/Scripts/validate_paper.py
-!/Scripts/verify_published_results.py
-
-# Publish the final capstone report; report drafts remain local.
-!/Documents/Reports/
-/Documents/Reports/*
-!/Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.docx
-!/Documents/Reports/C2C_58_DSCI_41_TrafficVolume_FinalReport_KLU_Final.pdf
 
 # Local copies and unreviewed raw execution output.
 /Main_Project/

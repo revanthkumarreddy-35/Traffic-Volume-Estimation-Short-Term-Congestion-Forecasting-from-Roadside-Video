@@ -119,5 +119,5 @@ its result can differ from the archived 37.5% runs. Package versions and input
 hashes are saved for this reason. The current paper reports the original v2 pilot,
 cached-feature re-evaluation and expanded YOLO11 experiment as three distinct
 stages, with their own test conditions and baselines. See
-`Documents/Research paper.pdf` and the integration provenance
+[`Research_Paper/Comparative_Evaluation_of_YOLOv8l_and_YOLO11l_for_Roadside_Traffic_Monitoring_and_Next-Segment_Congestion_Classification.pdf`](../../Research_Paper/Comparative_Evaluation_of_YOLOv8l_and_YOLO11l_for_Roadside_Traffic_Monitoring_and_Next-Segment_Congestion_Classification.pdf) and the integration provenance
 in the expanded analysis folder.

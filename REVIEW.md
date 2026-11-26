@@ -37,15 +37,11 @@ Full tracking-log verification requires the original local/Drive artifacts.
 The stored full audit is evidence of the completed local review, not a claim
 that those omitted logs can be reconstructed from this repository.
 
-Validation commands:
+Published review evidence:
 
-```powershell
-py Scripts/verify_published_results.py
-py Scripts/validate_paper.py
-py Scripts/test_forecasting_v3.py
-py Scripts/test_vehicle_improvements.py
-py Scripts/test_yolov8_notebook.py
-```
+- [Matched detector comparison](CP-1/Executed_Results_Analysis/YOLOV8_YOLO11_COMPARISON_REPORT.md)
+- [Cached and expanded evaluation comparison](CP-1/Forecasting_v3_Results/COMPARISON.md)
+- [Manual playback review](CP-1/Manual_Review/MANUAL_REVIEW_NOTES.md)
 
 The forecasting suite covers nine cases, including label leakage, chronological
 split boundaries, label-blind selection, motion features, checkpoint resume,
@@ -66,12 +62,11 @@ placeholder notes. The comparison-notebook test now accepts both saved execution
 outputs and clean notebooks while still checking its logic. Paper figures were
 renumbered and linked again; numerical results were not changed. The introduction
 now correctly attributes road-surface installation to inductive loops without
-making the same blanket claim about radar. All five validation commands above
-passed in a clean directory containing only the staged repository files.
+making the same blanket claim about radar. The retained CSV, figure, audit, and review records were checked during repository preparation.
 
 The current repository tree contains reusable notebooks/code, run instructions,
 label inputs used by offline checks, measured evaluation CSVs/figures, audits,
-the current paper and its editable source. Output-free notebooks retain the
+and the current research-paper PDF. Output-free notebooks retain the
 same code and configuration; executed originals are archived locally under
 `Local_Only/Executed_Notebooks/`.
 
